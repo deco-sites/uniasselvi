@@ -8,8 +8,9 @@ import * as $$$$$$0 from "./sections/Footer.tsx";
 import * as $$$$$$1 from "./sections/GradeCurricular.tsx";
 import * as $$$$$$2 from "./sections/HeadCurso.tsx";
 import * as $$$$$$3 from "./sections/ItWorks.tsx";
-import * as $$$$$$4 from "./sections/SobreEad.tsx";
-import * as $$$$$$5 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$4 from "./sections/Navbar.tsx";
+import * as $$$$$$5 from "./sections/SobreEad.tsx";
+import * as $$$$$$6 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
@@ -17,8 +18,9 @@ const manifest = {
     "site/sections/GradeCurricular.tsx": $$$$$$1,
     "site/sections/HeadCurso.tsx": $$$$$$2,
     "site/sections/ItWorks.tsx": $$$$$$3,
-    "site/sections/SobreEad.tsx": $$$$$$4,
-    "site/sections/Theme/Theme.tsx": $$$$$$5,
+    "site/sections/Navbar.tsx": $$$$$$4,
+    "site/sections/SobreEad.tsx": $$$$$$5,
+    "site/sections/Theme/Theme.tsx": $$$$$$6,
   },
   "apps": {
     "site/apps/deco/htmx.ts": $$$$$$$$$$$0,
