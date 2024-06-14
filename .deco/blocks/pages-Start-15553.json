@@ -3,8 +3,18 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "site/sections/ItWorks.tsx",
-      "name": "<h4>It Works!</h4>"
+      "__resolveType": "site/sections/HeadCurso.tsx",
+      "text_3": "<strong>Estudo Garantido:</strong> caso você perca o emprego no início do curso, as mensalidades  primeiro semestre serão por conta da UNIASSELVI.",
+      "curso": "Marketing",
+      "tipo_curso": "Tecnólogo - EAD",
+      "semestre": "4",
+      "text_4": "<p><strong>Estudo Garantido:</strong> caso você perca o emprego no início do curso, as mensalidades do primeiro semestre serão por conta da UNIASSELVI.</p>",
+      "text_5": "<p><strong>EAD semipresencial de verdade, </strong>com tutor exclusivo por turma para coordenar atividades e tirar dúvidas no polo ou virtualmente<strong>.</strong></p>",
+      "text_6": "<p>Flexibilidade para estudar <strong>onde e quando quiser.</strong></p>",
+      "text_7": "<p>Conclusão de uma nova disciplina a <strong>cada 4 semanas.</strong></p>",
+      "text_8": "<p>UNIASSELVI Leo App com <strong>navegação gratuita</strong>. Confira notas, acesse as trilhas de aprendizagem e estude com materiais didáticos digitais.</p>",
+      "text_9": "<p><strong>Plataformas online</strong> para auxiliar o seu aprendizado e atendimento ao aluno.</p>",
+      "text_10": "<p>Presente em <strong>todas as regiões</strong> do Brasil. Escolha o polo mais próximo de você.</p>"
     },
     {
       "__resolveType": "site/sections/SobreEad.tsx",
@@ -12,6 +22,10 @@
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/3c4a37f1-c9b6-452f-90c3-1faf3410c2d6",
       "text_1": "<h3>Sobre o EAD de <strong>Marketing </strong>da UNIASSELVI:</h3>",
       "text_2": "O curso tecnólogo a distância de Marketing - EAD visa formar profissionais capacitados para definir o diagnóstico organizacional de uma instituição, identificando os impactos da cultura e do cenário empresarial com amplitude de visão econômica do mercado a fim de traçar um planejamento estratégico. O curso tecnólogo EAD em Marketing fornece ferramentas necessárias para que o profissional defina planos de posicionamento de produtos/serviços, bem como atue no processo produtivo e no fluxograma de atividades organizacionais, definindo as práticas mais eficazes para a eficiência na gestão de processos. Entre os diferenciais do curso está a flexibilidade oferecida pela modalidade a distância. No curso EAD, o aluno poderá contar com estudos online e encontros presenciais uma vez por semana. Além disso, o curso possui professores e tutores capacitados e matriz curricular atualizada."
+    },
+    {
+      "__resolveType": "site/sections/GradeCurricular.tsx",
+      "text_1": "<p>O curso tecnólogo em Marketing, na modalidade EAD, tem como objetivo formar profissionais capacitados para atuar como responsáveis pela elaboração de estratégias comerciais que promovam o crescimento das empresas, desenvolvendo produtos e/ou serviços que atendam ao mercado consumidor. O profissional, ao cursar Marketing, poderá atuar na gestão de marketing de empresas de publicidade e propaganda, de instituições de ensino superior, de indústrias, de vestuário, de alimentos e bebidas entre outras organizações voltadas ao aprimoramento conceitual e comercial de bens e serviços.</p>"
     },
     {
       "__resolveType": "Footer"

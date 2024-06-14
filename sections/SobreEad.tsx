@@ -24,6 +24,7 @@ interface Props {
                 {/* <img src="/img-1/about.jpg" class="block min-w-full h-full opacity-90 bg-center" alt="" /> */}
                 {image && (
                     <Image
+                        class="block min-w-full h-full opacity-90 bg-center"
                         src={image || ""}
                         // alt={alt || ""}
                         // height={height || 54}

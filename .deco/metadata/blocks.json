@@ -48,5 +48,13 @@
   "/.deco/blocks/Preview%20%2Fsections%2FSobreEad.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/SobreEad.tsx"
+  },
+  "/.deco/blocks/Preview%20website%2Floaders%2Fredirect.ts.json": {
+    "blockType": "loaders",
+    "__resolveType": "website/loaders/redirect.ts"
+  },
+  "/.deco/blocks/Preview%20website%2Floaders%2FsecretString.ts.json": {
+    "blockType": "loaders",
+    "__resolveType": "website/loaders/secretString.ts"
   }
 }
