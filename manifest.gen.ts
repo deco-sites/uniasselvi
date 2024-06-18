@@ -4,35 +4,41 @@
 
 import * as $$$$$$$$$$$0 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
-import * as $$$$$$0 from "./sections/CursosMaisProcurados.tsx";
-import * as $$$$$$1 from "./sections/Footer.tsx";
-import * as $$$$$$2 from "./sections/FormasDeIngresso.tsx";
-import * as $$$$$$3 from "./sections/GradeCurricular.tsx";
-import * as $$$$$$4 from "./sections/HeadCurso.tsx";
-import * as $$$$$$5 from "./sections/ItWorks.tsx";
-import * as $$$$$$6 from "./sections/LeuApp.tsx";
-import * as $$$$$$7 from "./sections/Navbar.tsx";
-import * as $$$$$$8 from "./sections/Noticias.tsx";
-import * as $$$$$$9 from "./sections/SobreEad.tsx";
-import * as $$$$$$10 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$11 from "./sections/TransformacaoPorMeioDaEducacao.tsx";
-import * as $$$$$$12 from "./sections/UniversoDeOpcoes.tsx";
+import * as $$$$$$0 from "./sections/BannerGraduacao.tsx";
+import * as $$$$$$1 from "./sections/CursosMaisProcurados.tsx";
+import * as $$$$$$2 from "./sections/Footer.tsx";
+import * as $$$$$$3 from "./sections/FormasDeIngresso.tsx";
+import * as $$$$$$4 from "./sections/GradeCurricular.tsx";
+import * as $$$$$$5 from "./sections/HeadCurso.tsx";
+import * as $$$$$$6 from "./sections/ItWorks.tsx";
+import * as $$$$$$7 from "./sections/LeuApp.tsx";
+import * as $$$$$$8 from "./sections/ListagemDosCursos.tsx";
+import * as $$$$$$9 from "./sections/Navbar.tsx";
+import * as $$$$$$10 from "./sections/Noticias.tsx";
+import * as $$$$$$11 from "./sections/SelecioneOCurso.tsx";
+import * as $$$$$$12 from "./sections/SobreEad.tsx";
+import * as $$$$$$13 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$14 from "./sections/TransformacaoPorMeioDaEducacao.tsx";
+import * as $$$$$$15 from "./sections/UniversoDeOpcoes.tsx";
 
 const manifest = {
   "sections": {
-    "site/sections/CursosMaisProcurados.tsx": $$$$$$0,
-    "site/sections/Footer.tsx": $$$$$$1,
-    "site/sections/FormasDeIngresso.tsx": $$$$$$2,
-    "site/sections/GradeCurricular.tsx": $$$$$$3,
-    "site/sections/HeadCurso.tsx": $$$$$$4,
-    "site/sections/ItWorks.tsx": $$$$$$5,
-    "site/sections/LeuApp.tsx": $$$$$$6,
-    "site/sections/Navbar.tsx": $$$$$$7,
-    "site/sections/Noticias.tsx": $$$$$$8,
-    "site/sections/SobreEad.tsx": $$$$$$9,
-    "site/sections/Theme/Theme.tsx": $$$$$$10,
-    "site/sections/TransformacaoPorMeioDaEducacao.tsx": $$$$$$11,
-    "site/sections/UniversoDeOpcoes.tsx": $$$$$$12,
+    "site/sections/BannerGraduacao.tsx": $$$$$$0,
+    "site/sections/CursosMaisProcurados.tsx": $$$$$$1,
+    "site/sections/Footer.tsx": $$$$$$2,
+    "site/sections/FormasDeIngresso.tsx": $$$$$$3,
+    "site/sections/GradeCurricular.tsx": $$$$$$4,
+    "site/sections/HeadCurso.tsx": $$$$$$5,
+    "site/sections/ItWorks.tsx": $$$$$$6,
+    "site/sections/LeuApp.tsx": $$$$$$7,
+    "site/sections/ListagemDosCursos.tsx": $$$$$$8,
+    "site/sections/Navbar.tsx": $$$$$$9,
+    "site/sections/Noticias.tsx": $$$$$$10,
+    "site/sections/SelecioneOCurso.tsx": $$$$$$11,
+    "site/sections/SobreEad.tsx": $$$$$$12,
+    "site/sections/Theme/Theme.tsx": $$$$$$13,
+    "site/sections/TransformacaoPorMeioDaEducacao.tsx": $$$$$$14,
+    "site/sections/UniversoDeOpcoes.tsx": $$$$$$15,
   },
   "apps": {
     "site/apps/deco/htmx.ts": $$$$$$$$$$$0,

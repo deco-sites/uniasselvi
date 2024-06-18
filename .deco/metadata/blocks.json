@@ -58,5 +58,11 @@
     "path": "/",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Graduacao-710651.json": {
+    "name": "Graduacao",
+    "path": "/graduacao",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

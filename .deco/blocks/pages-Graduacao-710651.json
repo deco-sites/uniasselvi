@@ -1,0 +1,25 @@
+{
+  "name": "Graduacao",
+  "path": "/graduacao",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Navbar.tsx"
+    },
+    {
+      "__resolveType": "site/sections/BannerGraduacao.tsx"
+    },
+    {
+      "__resolveType": "site/sections/SelecioneOCurso.tsx"
+    },
+    {
+      "__resolveType": "site/sections/ListagemDosCursos.tsx"
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
