@@ -28,7 +28,7 @@ function Navbar({
                             </label>
                         </div> 
                         <div class="flex-1 px-2 mx-2">
-                            <img src="/img-1/logo-horizontal_desk.png" width="130px" alt="" />
+                            <img src="/logo-horizontal_desk.png" width="130px" alt="" />
                         </div>
                         <div class="flex-none hidden lg:block">
                             <ul class="menu menu-horizontal p-0">
