@@ -2,43 +2,57 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
+import * as $$$$$$$$$0 from "./actions/cepBlur.ts";
+import * as $$$$$$$$$1 from "./actions/cpfBlur.ts";
 import * as $$$$$$$$$$$0 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
 import * as $$$$$$0 from "./sections/BannerGraduacao.tsx";
 import * as $$$$$$1 from "./sections/CursosMaisProcurados.tsx";
-import * as $$$$$$2 from "./sections/Footer.tsx";
-import * as $$$$$$3 from "./sections/FormasDeIngresso.tsx";
-import * as $$$$$$4 from "./sections/GradeCurricular.tsx";
-import * as $$$$$$5 from "./sections/HeadCurso.tsx";
-import * as $$$$$$6 from "./sections/ItWorks.tsx";
-import * as $$$$$$7 from "./sections/LeuApp.tsx";
-import * as $$$$$$8 from "./sections/ListagemDosCursos.tsx";
-import * as $$$$$$9 from "./sections/Navbar.tsx";
-import * as $$$$$$10 from "./sections/Noticias.tsx";
-import * as $$$$$$11 from "./sections/SelecioneOCurso.tsx";
-import * as $$$$$$12 from "./sections/SobreEad.tsx";
-import * as $$$$$$13 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$14 from "./sections/TransformacaoPorMeioDaEducacao.tsx";
-import * as $$$$$$15 from "./sections/UniversoDeOpcoes.tsx";
+import * as $$$$$$2 from "./sections/EtapaSelecao/Content.tsx";
+import * as $$$$$$3 from "./sections/EtapaSelecao/FooterSelecao.tsx";
+import * as $$$$$$4 from "./sections/EtapaSelecao/HeaderSelecao.tsx";
+import * as $$$$$$5 from "./sections/EtapaSelecao/TopBar.tsx";
+import * as $$$$$$6 from "./sections/Footer.tsx";
+import * as $$$$$$7 from "./sections/FormasDeIngresso.tsx";
+import * as $$$$$$8 from "./sections/GradeCurricular.tsx";
+import * as $$$$$$9 from "./sections/HeadCurso.tsx";
+import * as $$$$$$10 from "./sections/ItWorks.tsx";
+import * as $$$$$$11 from "./sections/LeuApp.tsx";
+import * as $$$$$$12 from "./sections/ListagemDosCursos.tsx";
+import * as $$$$$$13 from "./sections/Navbar.tsx";
+import * as $$$$$$14 from "./sections/Noticias.tsx";
+import * as $$$$$$15 from "./sections/SelecioneOCurso.tsx";
+import * as $$$$$$16 from "./sections/SobreEad.tsx";
+import * as $$$$$$17 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$18 from "./sections/TransformacaoPorMeioDaEducacao.tsx";
+import * as $$$$$$19 from "./sections/UniversoDeOpcoes.tsx";
 
 const manifest = {
   "sections": {
     "site/sections/BannerGraduacao.tsx": $$$$$$0,
     "site/sections/CursosMaisProcurados.tsx": $$$$$$1,
-    "site/sections/Footer.tsx": $$$$$$2,
-    "site/sections/FormasDeIngresso.tsx": $$$$$$3,
-    "site/sections/GradeCurricular.tsx": $$$$$$4,
-    "site/sections/HeadCurso.tsx": $$$$$$5,
-    "site/sections/ItWorks.tsx": $$$$$$6,
-    "site/sections/LeuApp.tsx": $$$$$$7,
-    "site/sections/ListagemDosCursos.tsx": $$$$$$8,
-    "site/sections/Navbar.tsx": $$$$$$9,
-    "site/sections/Noticias.tsx": $$$$$$10,
-    "site/sections/SelecioneOCurso.tsx": $$$$$$11,
-    "site/sections/SobreEad.tsx": $$$$$$12,
-    "site/sections/Theme/Theme.tsx": $$$$$$13,
-    "site/sections/TransformacaoPorMeioDaEducacao.tsx": $$$$$$14,
-    "site/sections/UniversoDeOpcoes.tsx": $$$$$$15,
+    "site/sections/EtapaSelecao/Content.tsx": $$$$$$2,
+    "site/sections/EtapaSelecao/FooterSelecao.tsx": $$$$$$3,
+    "site/sections/EtapaSelecao/HeaderSelecao.tsx": $$$$$$4,
+    "site/sections/EtapaSelecao/TopBar.tsx": $$$$$$5,
+    "site/sections/Footer.tsx": $$$$$$6,
+    "site/sections/FormasDeIngresso.tsx": $$$$$$7,
+    "site/sections/GradeCurricular.tsx": $$$$$$8,
+    "site/sections/HeadCurso.tsx": $$$$$$9,
+    "site/sections/ItWorks.tsx": $$$$$$10,
+    "site/sections/LeuApp.tsx": $$$$$$11,
+    "site/sections/ListagemDosCursos.tsx": $$$$$$12,
+    "site/sections/Navbar.tsx": $$$$$$13,
+    "site/sections/Noticias.tsx": $$$$$$14,
+    "site/sections/SelecioneOCurso.tsx": $$$$$$15,
+    "site/sections/SobreEad.tsx": $$$$$$16,
+    "site/sections/Theme/Theme.tsx": $$$$$$17,
+    "site/sections/TransformacaoPorMeioDaEducacao.tsx": $$$$$$18,
+    "site/sections/UniversoDeOpcoes.tsx": $$$$$$19,
+  },
+  "actions": {
+    "site/actions/cepBlur.ts": $$$$$$$$$0,
+    "site/actions/cpfBlur.ts": $$$$$$$$$1,
   },
   "apps": {
     "site/apps/deco/htmx.ts": $$$$$$$$$$$0,

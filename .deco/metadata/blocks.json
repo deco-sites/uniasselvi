@@ -64,5 +64,31 @@
     "path": "/graduacao",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Etapa%25202-516687.json": {
+    "name": "Etapa 2",
+    "path": "/selecao2/etapa_vestibular_2",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FEtapaSelecao%2FTopBar.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/EtapaSelecao/TopBar.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FEtapaSelecao%2FHeader.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/EtapaSelecao/Header.tsx"
+  },
+  "/.deco/blocks/Preview%20site%2Fsections%2FEtapaSelecao%2FContent.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/EtapaSelecao/Content.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FEtapaSelecao%2FHeaderSelecao.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/EtapaSelecao/HeaderSelecao.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FEtapaSelecao%2FFooterSelecao.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/EtapaSelecao/FooterSelecao.tsx"
   }
 }
