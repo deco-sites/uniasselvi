@@ -1,0 +1,36 @@
+{
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Navbar.tsx"
+    },
+    {
+      "__resolveType": "site/sections/CursosMaisProcurados.tsx"
+    },
+    {
+      "__resolveType": "site/sections/UniversoDeOpcoes.tsx"
+    },
+    {
+      "__resolveType": "site/sections/LeuApp.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/7a462d15-23ed-4784-82ef-0edeec403cab"
+    },
+    {
+      "__resolveType": "site/sections/FormasDeIngresso.tsx"
+    },
+    {
+      "__resolveType": "site/sections/TransformacaoPorMeioDaEducacao.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/795e309d-c896-4f9f-85f9-cb7130b82011"
+    },
+    {
+      "__resolveType": "site/sections/Noticias.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Footer.tsx"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

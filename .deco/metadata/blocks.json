@@ -28,8 +28,8 @@
     "__resolveType": "site/sections/Theme/Theme.tsx"
   },
   "/.deco/blocks/pages-Start-15553.json": {
-    "name": "Home",
-    "path": "/",
+    "name": "Curso",
+    "path": "/curso",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
@@ -52,5 +52,11 @@
   "/.deco/blocks/Preview%20website%2Floaders%2FsecretString.ts.json": {
     "blockType": "loaders",
     "__resolveType": "website/loaders/secretString.ts"
+  },
+  "/.deco/blocks/pages-Home-99949.json": {
+    "name": "Home",
+    "path": "/",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

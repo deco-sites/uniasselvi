@@ -79,7 +79,7 @@ function HeadCurso({
                         
                         <iframe class="aspect-video mb-10" width="100%" src="https://www.youtube.com/embed/qAGTbTVwHSQ?si=SqbLqN5qhN1F08aq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-                        <script src="../static/cardScript.js"></script>
+                        <script src="/cardScript.js"></script>
 
                         <div id="card" class="bg-[#3a3b39] shadow-[0px_4px_4px_0px_rgba(0,_0,_0,_0.25)] rounded-[16px] z-10">
                             <ul class="steps bg-[#30312f] w-full rounded-t-[16px] py-5 px-10">
