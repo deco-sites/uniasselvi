@@ -45,73 +45,7 @@
       "name": "Sections",
       "pinned": true,
       "icon": "block",
-      "layout": {
-        "settings": {
-          "hasHeaders": true,
-          "constrainDragToContainer": true,
-          "reorderEnabled": true,
-          "selectionEnabled": false,
-          "popoutWholeStack": false,
-          "blockedPopoutsThrowError": true,
-          "closePopoutsOnUnload": true,
-          "showPopoutIcon": false,
-          "showMaximiseIcon": false,
-          "showCloseIcon": false,
-          "responsiveMode": "onload"
-        },
-        "dimensions": {
-          "borderWidth": 8,
-          "minItemHeight": 10,
-          "minItemWidth": 10,
-          "headerHeight": 40,
-          "dragProxyWidth": 300,
-          "dragProxyHeight": 200
-        },
-        "labels": {
-          "close": "close",
-          "maximise": "maximise",
-          "minimise": "minimise",
-          "popout": "open in new window",
-          "popin": "pop in",
-          "tabDropdown": "additional tabs"
-        },
-        "content": [
-          {
-            "type": "row",
-            "isClosable": true,
-            "reorderEnabled": true,
-            "title": "",
-            "content": [
-              {
-                "type": "stack",
-                "width": 100,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "sections::List::list::List::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-sections::List::list::List::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "sections::List::list::List::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "isClosable": true,
-        "reorderEnabled": true,
-        "title": "",
-        "openPopouts": [],
-        "maximisedItemId": null
-      },
+      "layout": [],
       "tabs": {
         "sections::List::list::List::%7B%7D": {
           "name": "List",
@@ -271,92 +205,6 @@
       "pinned": true,
       "icon": "block",
       "layout": [],
-      "tabs": {
-        "loaders::List::list::List::%7B%7D": {
-          "name": "List",
-          "icon": "list",
-          "render": "function",
-          "viewId": "List",
-          "id": "loaders::List::list::List::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        }
-      },
-      "category": "Advanced"
-    },
-    {
-      "id": "loaders",
-      "name": "Loaders",
-      "pinned": true,
-      "icon": "block",
-      "layout": {
-        "settings": {
-          "hasHeaders": true,
-          "constrainDragToContainer": true,
-          "reorderEnabled": true,
-          "selectionEnabled": false,
-          "popoutWholeStack": false,
-          "blockedPopoutsThrowError": true,
-          "closePopoutsOnUnload": true,
-          "showPopoutIcon": false,
-          "showMaximiseIcon": false,
-          "showCloseIcon": false,
-          "responsiveMode": "onload"
-        },
-        "dimensions": {
-          "borderWidth": 8,
-          "minItemHeight": 10,
-          "minItemWidth": 10,
-          "headerHeight": 40,
-          "dragProxyWidth": 300,
-          "dragProxyHeight": 200
-        },
-        "labels": {
-          "close": "close",
-          "maximise": "maximise",
-          "minimise": "minimise",
-          "popout": "open in new window",
-          "popin": "pop in",
-          "tabDropdown": "additional tabs"
-        },
-        "content": [
-          {
-            "type": "row",
-            "isClosable": true,
-            "reorderEnabled": true,
-            "title": "",
-            "content": [
-              {
-                "type": "stack",
-                "width": 100,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "loaders::List::list::List::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-loaders::List::list::List::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "loaders::List::list::List::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "isClosable": true,
-        "reorderEnabled": true,
-        "title": "",
-        "openPopouts": [],
-        "maximisedItemId": null
-      },
       "tabs": {
         "loaders::List::list::List::%7B%7D": {
           "name": "List",
@@ -547,29 +395,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 41.66666666666667,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Properties::list::Properties::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Start-15553.json::Properties::list::Properties::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Properties::list::Properties::%7B%7D"
-                    },
-                    "width": 30,
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 58.333333333333336,
+                "width": 100,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -583,7 +409,6 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Preview::world::Preview::%7B%7D"
                     },
-                    "width": 70,
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -599,26 +424,24 @@
         "maximisedItemId": null
       },
       "tabs": {
-        "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Properties::list::Properties::%7B%7D": {
-          "name": "Properties",
-          "icon": "list",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Properties",
-          "width": 30,
-          "id": "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Properties::list::Properties::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
         "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Preview::world::Preview::%7B%7D": {
           "name": "Preview",
           "icon": "world",
           "accepts": "function",
           "render": "function",
           "viewId": "Preview",
-          "width": 70,
           "id": "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "id": "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Properties::list::Properties::%7B%7D",
           "state": {
             "__signal": null
           }
@@ -877,9 +700,9 @@
     },
     {
       "id": "/.deco/blocks/Preview%20%2Fsections%2FSobreEad.tsx.json",
-      "name": "SobreEad.tsx",
+      "name": "Preview /sections/SobreEad.tsx",
       "pinned": false,
-      "icon": "code",
+      "icon": "package",
       "layout": {
         "settings": {
           "hasHeaders": true,
@@ -919,7 +742,29 @@
             "content": [
               {
                 "type": "stack",
-                "width": 50,
+                "width": 41.66666666666667,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FSobreEad.tsx.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FSobreEad.tsx.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FSobreEad.tsx.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "width": 30,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -933,27 +778,7 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FSobreEad.tsx.json::Preview::world::Preview::%7B%7D"
                     },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 50,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FSobreEad.tsx.json::Code::code::Code::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FSobreEad.tsx.json::Code::code::Code::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FSobreEad.tsx.json::Code::code::Code::%7B%7D"
-                    },
+                    "width": 70,
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -969,24 +794,26 @@
         "maximisedItemId": null
       },
       "tabs": {
+        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FSobreEad.tsx.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FSobreEad.tsx.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
         "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FSobreEad.tsx.json::Preview::world::Preview::%7B%7D": {
           "name": "Preview",
           "icon": "world",
           "accepts": "function",
           "render": "function",
           "viewId": "Preview",
+          "width": 70,
           "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FSobreEad.tsx.json::Preview::world::Preview::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FSobreEad.tsx.json::Code::code::Code::%7B%7D": {
-          "name": "Code",
-          "icon": "code",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Code",
-          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FSobreEad.tsx.json::Code::code::Code::%7B%7D",
           "state": {
             "__signal": null
           }
@@ -1230,6 +1057,215 @@
       }
     },
     {
+      "id": "build-log-f7a8bad2d2fc7a6faec498b02717077fe1cfef83",
+      "name": "Build Log f7a8bad",
+      "pinned": false,
+      "icon": "news",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 100,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "build-log-f7a8bad2d2fc7a6faec498b02717077fe1cfef83::Build%20Logs::news::Build%20Logs::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-build-log-f7a8bad2d2fc7a6faec498b02717077fe1cfef83::Build%20Logs::news::Build%20Logs::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "build-log-f7a8bad2d2fc7a6faec498b02717077fe1cfef83::Build%20Logs::news::Build%20Logs::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "build-log-f7a8bad2d2fc7a6faec498b02717077fe1cfef83::Build%20Logs::news::Build%20Logs::%7B%7D": {
+          "name": "Build Logs",
+          "icon": "news",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Build Logs",
+          "id": "build-log-f7a8bad2d2fc7a6faec498b02717077fe1cfef83::Build%20Logs::news::Build%20Logs::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/pages-Etapa%25202-195567.json",
+      "name": "Etapa 2",
+      "pinned": false,
+      "icon": "file",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 41.66666666666667,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-Etapa%2525202-195567.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Etapa%2525202-195567.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-Etapa%2525202-195567.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "width": 30,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 58.333333333333336,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-Etapa%2525202-195567.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Etapa%2525202-195567.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-Etapa%2525202-195567.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2Fpages-Etapa%2525202-195567.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2Fpages-Etapa%2525202-195567.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null,
+            "value": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fpages-Etapa%2525202-195567.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "width": 70,
+          "id": "%2F.deco%2Fblocks%2Fpages-Etapa%2525202-195567.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
       "id": "/.deco/blocks/pages-Home-99949.json",
       "name": "Home",
       "pinned": false,
@@ -1273,7 +1309,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 30,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1295,7 +1331,7 @@
               },
               {
                 "type": "stack",
-                "width": 70,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1334,8 +1370,7 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-Home-99949.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-Home-99949.json::Preview::world::Preview::%7B%7D": {
@@ -1346,6 +1381,282 @@
           "viewId": "Preview",
           "width": 70,
           "id": "%2F.deco%2Fblocks%2Fpages-Home-99949.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/pages-Etapa%25202-516687.json",
+      "name": "Etapa 2",
+      "pinned": false,
+      "icon": "file",
+      "layout": [],
+      "tabs": {}
+    },
+    {
+      "id": "/.deco/blocks/pages-Etapa%25202-703764.json",
+      "name": "Etapa 2",
+      "pinned": false,
+      "icon": "file",
+      "layout": [],
+      "tabs": {}
+    },
+    {
+      "id": "/.deco/blocks/pages-Etapa%25202-416148.json",
+      "name": "Etapa 2",
+      "pinned": false,
+      "icon": "file",
+      "layout": [],
+      "tabs": {}
+    },
+    {
+      "id": "/.deco/blocks/pages-Etapa%25202-169078.json",
+      "name": "Etapa 2",
+      "pinned": false,
+      "icon": "file",
+      "layout": [],
+      "tabs": {}
+    },
+    {
+      "id": "/.deco/blocks/pages-Etapa%2520Vestibular%25202-224767.json",
+      "name": "Etapa Vestibular 2",
+      "pinned": false,
+      "icon": "file",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 41.66666666666667,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-Etapa%252520Vestibular%2525202-224767.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Etapa%252520Vestibular%2525202-224767.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-Etapa%252520Vestibular%2525202-224767.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "width": 30,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 58.333333333333336,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-Etapa%252520Vestibular%2525202-224767.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Etapa%252520Vestibular%2525202-224767.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-Etapa%252520Vestibular%2525202-224767.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2Fpages-Etapa%252520Vestibular%2525202-224767.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2Fpages-Etapa%252520Vestibular%2525202-224767.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fpages-Etapa%252520Vestibular%2525202-224767.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "width": 70,
+          "id": "%2F.deco%2Fblocks%2Fpages-Etapa%252520Vestibular%2525202-224767.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Preview%20%2Fsections%2FEtapaSelecao%2FTopBar.tsx.json",
+      "name": "Preview /sections/EtapaSelecao/TopBar.tsx",
+      "pinned": false,
+      "icon": "package",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 41.66666666666667,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FTopBar.tsx.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FTopBar.tsx.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FTopBar.tsx.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "width": 30,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 58.333333333333336,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FTopBar.tsx.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FTopBar.tsx.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FTopBar.tsx.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FTopBar.tsx.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FTopBar.tsx.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FTopBar.tsx.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "width": 70,
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FTopBar.tsx.json::Preview::world::Preview::%7B%7D",
           "state": {
             "__signal": null
           }
@@ -1457,7 +1768,8 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-Graduacao-710651.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-Graduacao-710651.json::Preview::world::Preview::%7B%7D": {
@@ -1468,823 +1780,6 @@
           "viewId": "Preview",
           "width": 70,
           "id": "%2F.deco%2Fblocks%2Fpages-Graduacao-710651.json::Preview::world::Preview::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        }
-      }
-    },
-    {
-<<<<<<< HEAD
-      "id": "{\"oid\":\"8c1df2b5c3a53ef3eb0399e0e6cfdd5dfbfd34ae\",\"short\":\"8c1df2b\",\"commit\":{\"message\":\"Update README.md\\n\",\"parent\":[\"f7a8bad2d2fc7a6faec498b02717077fe1cfef83\"],\"tree\":\"db1d2ac1ba198e2f7ec1cce50b0d32d74ab42a7b\",\"author\":{\"name\":\"Viktor Marinho\",\"email\":\"56888067+viktormarinho@users.noreply.github.com\",\"timestamp\":1718633177,\"timezoneOffset\":180},\"committer\":{\"name\":\"GitHub\",\"email\":\"noreply@github.com\",\"timestamp\":1718633177,\"timezoneOffset\":180},\"gpgsig\":\"-----BEGIN PGP SIGNATURE-----\\n\\nwsFcBAABCAAQBQJmcELZCRC1aQ7uu5UhlAAAME0QABVrLcAFNMStINbHccvGMyCb\\nMGmaQTCNH85h9b453T2AshplUMtsfqUCkF6AXLnkFAbft6cqVEzmMeaeav8lA5am\\nEaMywOiMZ6MEPmdiDfUMvbx82wcK6iwKCHFdzNttZ1VxuDFUaGjhhwSeWiOy3gUX\\nSiIwhYjqNPinti46jh1m+PaQuCShce/N/dmunBmq6UWATjuU1A3BMDLSyF/l9fty\\nGdEje79/di8YkZvvDDKNaiP14fbyw5ECWKyYw7TTTZpAyVh5hZe+f/dIEJPnO96P\\nMBEbyoVIrOHCrywSAkMDH5xStA9aNM4Zb17U+/z2tpFFgbNoOXeqToThgRtUlmBI\\nwI6srXYO6sfAPyLSHXF8EVivxduCCX8KA9hNJOyoiKF7srfVHZDltz75cV2FEw3f\\nq8y2V+ciQJqKXAgAKYWT8wZz3ZN8l8vW40AtoQF/MjnLiZDdyzme25uHQRx+uB2Y\\ngXLNmsA28UQes7MPpWbp9jmAQPaCVWZMJsH58AIp3Vwpc2YNTyWsFv+aydaq1mqs\\n8NmPcHLVZftGsc+f6GFMxVPMUfo0Pw3qs2GVMrbz5KJRztH1NuQplV4n3H3NQM4x\\nXjlx7NrFnzp4NsrZDpKGOInF9KPGQo2yxtgG98ffEi8b/Mk6xiZIof8AIlI57V3E\\nGe3cNu7ze9LoGa1gFrHd\\n=DBED\\n-----END PGP SIGNATURE-----\\n\"}}",
-      "name": "Release 8c1df2b",
-      "pinned": false,
-      "icon": "rocket",
-=======
-      "id": "/.deco/blocks/pages-Etapa%25202-516687.json",
-      "name": "Etapa 2",
-      "pinned": false,
-      "icon": "file",
->>>>>>> 0f0c8a9c01a94888eb214f4c53399149c2fd8fc2
-      "layout": {
-        "settings": {
-          "hasHeaders": true,
-          "constrainDragToContainer": true,
-          "reorderEnabled": true,
-          "selectionEnabled": false,
-          "popoutWholeStack": false,
-          "blockedPopoutsThrowError": true,
-          "closePopoutsOnUnload": true,
-          "showPopoutIcon": false,
-          "showMaximiseIcon": false,
-          "showCloseIcon": false,
-          "responsiveMode": "onload"
-        },
-        "dimensions": {
-          "borderWidth": 8,
-          "minItemHeight": 10,
-          "minItemWidth": 10,
-          "headerHeight": 40,
-          "dragProxyWidth": 300,
-          "dragProxyHeight": 200
-        },
-        "labels": {
-          "close": "close",
-          "maximise": "maximise",
-          "minimise": "minimise",
-          "popout": "open in new window",
-          "popin": "pop in",
-          "tabDropdown": "additional tabs"
-        },
-        "content": [
-          {
-            "type": "row",
-            "isClosable": true,
-            "reorderEnabled": true,
-            "title": "",
-            "content": [
-              {
-                "type": "stack",
-<<<<<<< HEAD
-                "width": 100,
-=======
-                "width": 41.66666666666667,
->>>>>>> 0f0c8a9c01a94888eb214f4c53399149c2fd8fc2
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-<<<<<<< HEAD
-                    "id": "%7B%22oid%22%3A%228c1df2b5c3a53ef3eb0399e0e6cfdd5dfbfd34ae%22%2C%22short%22%3A%228c1df2b%22%2C%22commit%22%3A%7B%22message%22%3A%22Update%20README.md%5Cn%22%2C%22parent%22%3A%5B%22f7a8bad2d2fc7a6faec498b02717077fe1cfef83%22%5D%2C%22tree%22%3A%22db1d2ac1ba198e2f7ec1cce50b0d32d74ab42a7b%22%2C%22author%22%3A%7B%22name%22%3A%22Viktor%20Marinho%22%2C%22email%22%3A%2256888067%2Bviktormarinho%40users.noreply.github.com%22%2C%22timestamp%22%3A1718633177%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22GitHub%22%2C%22email%22%3A%22noreply%40github.com%22%2C%22timestamp%22%3A1718633177%2C%22timezoneOffset%22%3A180%7D%2C%22gpgsig%22%3A%22-----BEGIN%20PGP%20SIGNATURE-----%5Cn%5CnwsFcBAABCAAQBQJmcELZCRC1aQ7uu5UhlAAAME0QABVrLcAFNMStINbHccvGMyCb%5CnMGmaQTCNH85h9b453T2AshplUMtsfqUCkF6AXLnkFAbft6cqVEzmMeaeav8lA5am%5CnEaMywOiMZ6MEPmdiDfUMvbx82wcK6iwKCHFdzNttZ1VxuDFUaGjhhwSeWiOy3gUX%5CnSiIwhYjqNPinti46jh1m%2BPaQuCShce%2FN%2FdmunBmq6UWATjuU1A3BMDLSyF%2Fl9fty%5CnGdEje79%2Fdi8YkZvvDDKNaiP14fbyw5ECWKyYw7TTTZpAyVh5hZe%2Bf%2FdIEJPnO96P%5CnMBEbyoVIrOHCrywSAkMDH5xStA9aNM4Zb17U%2B%2Fz2tpFFgbNoOXeqToThgRtUlmBI%5CnwI6srXYO6sfAPyLSHXF8EVivxduCCX8KA9hNJOyoiKF7srfVHZDltz75cV2FEw3f%5Cnq8y2V%2BciQJqKXAgAKYWT8wZz3ZN8l8vW40AtoQF%2FMjnLiZDdyzme25uHQRx%2BuB2Y%5CngXLNmsA28UQes7MPpWbp9jmAQPaCVWZMJsH58AIp3Vwpc2YNTyWsFv%2Baydaq1mqs%5Cn8NmPcHLVZftGsc%2Bf6GFMxVPMUfo0Pw3qs2GVMrbz5KJRztH1NuQplV4n3H3NQM4x%5CnXjlx7NrFnzp4NsrZDpKGOInF9KPGQo2yxtgG98ffEi8b%2FMk6xiZIof8AIlI57V3E%5CnGe3cNu7ze9LoGa1gFrHd%5Cn%3DDBED%5Cn-----END%20PGP%20SIGNATURE-----%5Cn%22%7D%7D::Release::rocket::Release::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%7B%22oid%22%3A%228c1df2b5c3a53ef3eb0399e0e6cfdd5dfbfd34ae%22%2C%22short%22%3A%228c1df2b%22%2C%22commit%22%3A%7B%22message%22%3A%22Update%20README.md%5Cn%22%2C%22parent%22%3A%5B%22f7a8bad2d2fc7a6faec498b02717077fe1cfef83%22%5D%2C%22tree%22%3A%22db1d2ac1ba198e2f7ec1cce50b0d32d74ab42a7b%22%2C%22author%22%3A%7B%22name%22%3A%22Viktor%20Marinho%22%2C%22email%22%3A%2256888067%2Bviktormarinho%40users.noreply.github.com%22%2C%22timestamp%22%3A1718633177%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22GitHub%22%2C%22email%22%3A%22noreply%40github.com%22%2C%22timestamp%22%3A1718633177%2C%22timezoneOffset%22%3A180%7D%2C%22gpgsig%22%3A%22-----BEGIN%20PGP%20SIGNATURE-----%5Cn%5CnwsFcBAABCAAQBQJmcELZCRC1aQ7uu5UhlAAAME0QABVrLcAFNMStINbHccvGMyCb%5CnMGmaQTCNH85h9b453T2AshplUMtsfqUCkF6AXLnkFAbft6cqVEzmMeaeav8lA5am%5CnEaMywOiMZ6MEPmdiDfUMvbx82wcK6iwKCHFdzNttZ1VxuDFUaGjhhwSeWiOy3gUX%5CnSiIwhYjqNPinti46jh1m%2BPaQuCShce%2FN%2FdmunBmq6UWATjuU1A3BMDLSyF%2Fl9fty%5CnGdEje79%2Fdi8YkZvvDDKNaiP14fbyw5ECWKyYw7TTTZpAyVh5hZe%2Bf%2FdIEJPnO96P%5CnMBEbyoVIrOHCrywSAkMDH5xStA9aNM4Zb17U%2B%2Fz2tpFFgbNoOXeqToThgRtUlmBI%5CnwI6srXYO6sfAPyLSHXF8EVivxduCCX8KA9hNJOyoiKF7srfVHZDltz75cV2FEw3f%5Cnq8y2V%2BciQJqKXAgAKYWT8wZz3ZN8l8vW40AtoQF%2FMjnLiZDdyzme25uHQRx%2BuB2Y%5CngXLNmsA28UQes7MPpWbp9jmAQPaCVWZMJsH58AIp3Vwpc2YNTyWsFv%2Baydaq1mqs%5Cn8NmPcHLVZftGsc%2Bf6GFMxVPMUfo0Pw3qs2GVMrbz5KJRztH1NuQplV4n3H3NQM4x%5CnXjlx7NrFnzp4NsrZDpKGOInF9KPGQo2yxtgG98ffEi8b%2FMk6xiZIof8AIlI57V3E%5CnGe3cNu7ze9LoGa1gFrHd%5Cn%3DDBED%5Cn-----END%20PGP%20SIGNATURE-----%5Cn%22%7D%7D::Release::rocket::Release::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%7B%22oid%22%3A%228c1df2b5c3a53ef3eb0399e0e6cfdd5dfbfd34ae%22%2C%22short%22%3A%228c1df2b%22%2C%22commit%22%3A%7B%22message%22%3A%22Update%20README.md%5Cn%22%2C%22parent%22%3A%5B%22f7a8bad2d2fc7a6faec498b02717077fe1cfef83%22%5D%2C%22tree%22%3A%22db1d2ac1ba198e2f7ec1cce50b0d32d74ab42a7b%22%2C%22author%22%3A%7B%22name%22%3A%22Viktor%20Marinho%22%2C%22email%22%3A%2256888067%2Bviktormarinho%40users.noreply.github.com%22%2C%22timestamp%22%3A1718633177%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22GitHub%22%2C%22email%22%3A%22noreply%40github.com%22%2C%22timestamp%22%3A1718633177%2C%22timezoneOffset%22%3A180%7D%2C%22gpgsig%22%3A%22-----BEGIN%20PGP%20SIGNATURE-----%5Cn%5CnwsFcBAABCAAQBQJmcELZCRC1aQ7uu5UhlAAAME0QABVrLcAFNMStINbHccvGMyCb%5CnMGmaQTCNH85h9b453T2AshplUMtsfqUCkF6AXLnkFAbft6cqVEzmMeaeav8lA5am%5CnEaMywOiMZ6MEPmdiDfUMvbx82wcK6iwKCHFdzNttZ1VxuDFUaGjhhwSeWiOy3gUX%5CnSiIwhYjqNPinti46jh1m%2BPaQuCShce%2FN%2FdmunBmq6UWATjuU1A3BMDLSyF%2Fl9fty%5CnGdEje79%2Fdi8YkZvvDDKNaiP14fbyw5ECWKyYw7TTTZpAyVh5hZe%2Bf%2FdIEJPnO96P%5CnMBEbyoVIrOHCrywSAkMDH5xStA9aNM4Zb17U%2B%2Fz2tpFFgbNoOXeqToThgRtUlmBI%5CnwI6srXYO6sfAPyLSHXF8EVivxduCCX8KA9hNJOyoiKF7srfVHZDltz75cV2FEw3f%5Cnq8y2V%2BciQJqKXAgAKYWT8wZz3ZN8l8vW40AtoQF%2FMjnLiZDdyzme25uHQRx%2BuB2Y%5CngXLNmsA28UQes7MPpWbp9jmAQPaCVWZMJsH58AIp3Vwpc2YNTyWsFv%2Baydaq1mqs%5Cn8NmPcHLVZftGsc%2Bf6GFMxVPMUfo0Pw3qs2GVMrbz5KJRztH1NuQplV4n3H3NQM4x%5CnXjlx7NrFnzp4NsrZDpKGOInF9KPGQo2yxtgG98ffEi8b%2FMk6xiZIof8AIlI57V3E%5CnGe3cNu7ze9LoGa1gFrHd%5Cn%3DDBED%5Cn-----END%20PGP%20SIGNATURE-----%5Cn%22%7D%7D::Release::rocket::Release::%7B%7D"
-                    },
-=======
-                    "id": "%2F.deco%2Fblocks%2Fpages-Etapa%2525202-516687.json::Properties::list::Properties::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Etapa%2525202-516687.json::Properties::list::Properties::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-Etapa%2525202-516687.json::Properties::list::Properties::%7B%7D"
-                    },
-                    "width": 30,
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 58.333333333333336,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2Fpages-Etapa%2525202-516687.json::Preview::world::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Etapa%2525202-516687.json::Preview::world::Preview::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-Etapa%2525202-516687.json::Preview::world::Preview::%7B%7D"
-                    },
-                    "width": 70,
->>>>>>> 0f0c8a9c01a94888eb214f4c53399149c2fd8fc2
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "isClosable": true,
-        "reorderEnabled": true,
-        "title": "",
-        "openPopouts": [],
-        "maximisedItemId": null
-      },
-      "tabs": {
-<<<<<<< HEAD
-        "%7B%22oid%22%3A%228c1df2b5c3a53ef3eb0399e0e6cfdd5dfbfd34ae%22%2C%22short%22%3A%228c1df2b%22%2C%22commit%22%3A%7B%22message%22%3A%22Update%20README.md%5Cn%22%2C%22parent%22%3A%5B%22f7a8bad2d2fc7a6faec498b02717077fe1cfef83%22%5D%2C%22tree%22%3A%22db1d2ac1ba198e2f7ec1cce50b0d32d74ab42a7b%22%2C%22author%22%3A%7B%22name%22%3A%22Viktor%20Marinho%22%2C%22email%22%3A%2256888067%2Bviktormarinho%40users.noreply.github.com%22%2C%22timestamp%22%3A1718633177%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22GitHub%22%2C%22email%22%3A%22noreply%40github.com%22%2C%22timestamp%22%3A1718633177%2C%22timezoneOffset%22%3A180%7D%2C%22gpgsig%22%3A%22-----BEGIN%20PGP%20SIGNATURE-----%5Cn%5CnwsFcBAABCAAQBQJmcELZCRC1aQ7uu5UhlAAAME0QABVrLcAFNMStINbHccvGMyCb%5CnMGmaQTCNH85h9b453T2AshplUMtsfqUCkF6AXLnkFAbft6cqVEzmMeaeav8lA5am%5CnEaMywOiMZ6MEPmdiDfUMvbx82wcK6iwKCHFdzNttZ1VxuDFUaGjhhwSeWiOy3gUX%5CnSiIwhYjqNPinti46jh1m%2BPaQuCShce%2FN%2FdmunBmq6UWATjuU1A3BMDLSyF%2Fl9fty%5CnGdEje79%2Fdi8YkZvvDDKNaiP14fbyw5ECWKyYw7TTTZpAyVh5hZe%2Bf%2FdIEJPnO96P%5CnMBEbyoVIrOHCrywSAkMDH5xStA9aNM4Zb17U%2B%2Fz2tpFFgbNoOXeqToThgRtUlmBI%5CnwI6srXYO6sfAPyLSHXF8EVivxduCCX8KA9hNJOyoiKF7srfVHZDltz75cV2FEw3f%5Cnq8y2V%2BciQJqKXAgAKYWT8wZz3ZN8l8vW40AtoQF%2FMjnLiZDdyzme25uHQRx%2BuB2Y%5CngXLNmsA28UQes7MPpWbp9jmAQPaCVWZMJsH58AIp3Vwpc2YNTyWsFv%2Baydaq1mqs%5Cn8NmPcHLVZftGsc%2Bf6GFMxVPMUfo0Pw3qs2GVMrbz5KJRztH1NuQplV4n3H3NQM4x%5CnXjlx7NrFnzp4NsrZDpKGOInF9KPGQo2yxtgG98ffEi8b%2FMk6xiZIof8AIlI57V3E%5CnGe3cNu7ze9LoGa1gFrHd%5Cn%3DDBED%5Cn-----END%20PGP%20SIGNATURE-----%5Cn%22%7D%7D::Release::rocket::Release::%7B%7D": {
-          "name": "Release",
-          "icon": "rocket",
-          "render": "function",
-          "viewId": "Release",
-          "id": "%7B%22oid%22%3A%228c1df2b5c3a53ef3eb0399e0e6cfdd5dfbfd34ae%22%2C%22short%22%3A%228c1df2b%22%2C%22commit%22%3A%7B%22message%22%3A%22Update%20README.md%5Cn%22%2C%22parent%22%3A%5B%22f7a8bad2d2fc7a6faec498b02717077fe1cfef83%22%5D%2C%22tree%22%3A%22db1d2ac1ba198e2f7ec1cce50b0d32d74ab42a7b%22%2C%22author%22%3A%7B%22name%22%3A%22Viktor%20Marinho%22%2C%22email%22%3A%2256888067%2Bviktormarinho%40users.noreply.github.com%22%2C%22timestamp%22%3A1718633177%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22GitHub%22%2C%22email%22%3A%22noreply%40github.com%22%2C%22timestamp%22%3A1718633177%2C%22timezoneOffset%22%3A180%7D%2C%22gpgsig%22%3A%22-----BEGIN%20PGP%20SIGNATURE-----%5Cn%5CnwsFcBAABCAAQBQJmcELZCRC1aQ7uu5UhlAAAME0QABVrLcAFNMStINbHccvGMyCb%5CnMGmaQTCNH85h9b453T2AshplUMtsfqUCkF6AXLnkFAbft6cqVEzmMeaeav8lA5am%5CnEaMywOiMZ6MEPmdiDfUMvbx82wcK6iwKCHFdzNttZ1VxuDFUaGjhhwSeWiOy3gUX%5CnSiIwhYjqNPinti46jh1m%2BPaQuCShce%2FN%2FdmunBmq6UWATjuU1A3BMDLSyF%2Fl9fty%5CnGdEje79%2Fdi8YkZvvDDKNaiP14fbyw5ECWKyYw7TTTZpAyVh5hZe%2Bf%2FdIEJPnO96P%5CnMBEbyoVIrOHCrywSAkMDH5xStA9aNM4Zb17U%2B%2Fz2tpFFgbNoOXeqToThgRtUlmBI%5CnwI6srXYO6sfAPyLSHXF8EVivxduCCX8KA9hNJOyoiKF7srfVHZDltz75cV2FEw3f%5Cnq8y2V%2BciQJqKXAgAKYWT8wZz3ZN8l8vW40AtoQF%2FMjnLiZDdyzme25uHQRx%2BuB2Y%5CngXLNmsA28UQes7MPpWbp9jmAQPaCVWZMJsH58AIp3Vwpc2YNTyWsFv%2Baydaq1mqs%5Cn8NmPcHLVZftGsc%2Bf6GFMxVPMUfo0Pw3qs2GVMrbz5KJRztH1NuQplV4n3H3NQM4x%5CnXjlx7NrFnzp4NsrZDpKGOInF9KPGQo2yxtgG98ffEi8b%2FMk6xiZIof8AIlI57V3E%5CnGe3cNu7ze9LoGa1gFrHd%5Cn%3DDBED%5Cn-----END%20PGP%20SIGNATURE-----%5Cn%22%7D%7D::Release::rocket::Release::%7B%7D",
-=======
-        "%2F.deco%2Fblocks%2Fpages-Etapa%2525202-516687.json::Properties::list::Properties::%7B%7D": {
-          "name": "Properties",
-          "icon": "list",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Properties",
-          "width": 30,
-          "id": "%2F.deco%2Fblocks%2Fpages-Etapa%2525202-516687.json::Properties::list::Properties::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2Fpages-Etapa%2525202-516687.json::Preview::world::Preview::%7B%7D": {
-          "name": "Preview",
-          "icon": "world",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Preview",
-          "width": 70,
-          "id": "%2F.deco%2Fblocks%2Fpages-Etapa%2525202-516687.json::Preview::world::Preview::%7B%7D",
->>>>>>> 0f0c8a9c01a94888eb214f4c53399149c2fd8fc2
-          "state": {
-            "__signal": null
-          }
-        }
-      }
-    },
-    {
-<<<<<<< HEAD
-      "id": "{\"oid\":\"e701f297b4c2ac5954d0d960f5addeb3760e287c\",\"short\":\"e701f29\",\"commit\":{\"message\":\"Remove empty redirect\\n\",\"parent\":[\"8c1df2b5c3a53ef3eb0399e0e6cfdd5dfbfd34ae\"],\"tree\":\"6cf1418a5ca85f967c8c624c752434bcba6d24c3\",\"author\":{\"name\":\"Viktor Marinho\",\"email\":\"56888067+viktormarinho@users.noreply.github.com\",\"timestamp\":1718633662,\"timezoneOffset\":180},\"committer\":{\"name\":\"GitHub\",\"email\":\"noreply@github.com\",\"timestamp\":1718633662,\"timezoneOffset\":180},\"gpgsig\":\"-----BEGIN PGP SIGNATURE-----\\n\\nwsFcBAABCAAQBQJmcES+CRC1aQ7uu5UhlAAAnDgQAFo0DJXhANqt/HyDocMP1nZC\\n9gr1ahESnus9G+EWfrgfd0SLUTJmDjxckFCK9QXMwg97QteRRmj2cPyppy0wktBB\\n2oAC4KjrBu2EnXUYNdhhB+pAotHv0A7oCWsJEKNKd3y9/vhIaS6nYIt4wS5cD7Ce\\nykjXBJU2bW9yndbmz4kC9dF66zyDBknGCcsu5qE5vlGnLgAO4KJU1LzMgORjF9YD\\ne7Dt6hq09Uxb/1OisfClkk6n0xXuJPcxmRscRiLxXib3840kZgGzVHRcKru6cWAX\\nS3EZYdDNe/yvsFSGbmMsG4nDAWyKoX9OTDMC7e8DQm3/cJckXPA2lF8NLqPbeQ+r\\nV9wrShZnYoHJZDOmxKIA7keVucneqzcDOdJIQKmlQZUrZjhJut4lQF49Tq4eJKVZ\\nMU3ayZJkWgx3oAZTayq0yj3vGI5f7ePRkKr42cnhR7MdWVfTC9ov4lSpxatNI9mM\\nezMGwaGh+HJ4JN++APHQ8oZFnn/A00B8pFptCjv84goTC3/BCboni+zh23efYbpb\\nku8VqCdAJhMbPrv9w+OBBjNtdrv1hTJUrnKCRPsMyWIrKOyNtUzuSdOU0LjgI1g0\\nx2oRkV6VEukmv2ggAv1vEff+ynNSPkdboavLA5NVOnnMp4HQMxzixr+qGjqG/8ip\\nfnwMfG2u1W6JAz94f+7G\\n=os5y\\n-----END PGP SIGNATURE-----\\n\"}}",
-      "name": "Release e701f29",
-      "pinned": false,
-      "icon": "rocket",
-=======
-      "id": "/.deco/blocks/Preview%20%2Fsections%2FEtapaSelecao%2FTopBar.tsx.json",
-      "name": "TopBar.tsx",
-      "pinned": false,
-      "icon": "code",
->>>>>>> 0f0c8a9c01a94888eb214f4c53399149c2fd8fc2
-      "layout": {
-        "settings": {
-          "hasHeaders": true,
-          "constrainDragToContainer": true,
-          "reorderEnabled": true,
-          "selectionEnabled": false,
-          "popoutWholeStack": false,
-          "blockedPopoutsThrowError": true,
-          "closePopoutsOnUnload": true,
-          "showPopoutIcon": false,
-          "showMaximiseIcon": false,
-          "showCloseIcon": false,
-          "responsiveMode": "onload"
-        },
-        "dimensions": {
-          "borderWidth": 8,
-          "minItemHeight": 10,
-          "minItemWidth": 10,
-          "headerHeight": 40,
-          "dragProxyWidth": 300,
-          "dragProxyHeight": 200
-        },
-        "labels": {
-          "close": "close",
-          "maximise": "maximise",
-          "minimise": "minimise",
-          "popout": "open in new window",
-          "popin": "pop in",
-          "tabDropdown": "additional tabs"
-        },
-        "content": [
-          {
-            "type": "row",
-            "isClosable": true,
-            "reorderEnabled": true,
-            "title": "",
-            "content": [
-              {
-                "type": "stack",
-<<<<<<< HEAD
-                "width": 100,
-=======
-                "width": 49.99999999999999,
->>>>>>> 0f0c8a9c01a94888eb214f4c53399149c2fd8fc2
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-<<<<<<< HEAD
-                    "id": "%7B%22oid%22%3A%22e701f297b4c2ac5954d0d960f5addeb3760e287c%22%2C%22short%22%3A%22e701f29%22%2C%22commit%22%3A%7B%22message%22%3A%22Remove%20empty%20redirect%5Cn%22%2C%22parent%22%3A%5B%228c1df2b5c3a53ef3eb0399e0e6cfdd5dfbfd34ae%22%5D%2C%22tree%22%3A%226cf1418a5ca85f967c8c624c752434bcba6d24c3%22%2C%22author%22%3A%7B%22name%22%3A%22Viktor%20Marinho%22%2C%22email%22%3A%2256888067%2Bviktormarinho%40users.noreply.github.com%22%2C%22timestamp%22%3A1718633662%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22GitHub%22%2C%22email%22%3A%22noreply%40github.com%22%2C%22timestamp%22%3A1718633662%2C%22timezoneOffset%22%3A180%7D%2C%22gpgsig%22%3A%22-----BEGIN%20PGP%20SIGNATURE-----%5Cn%5CnwsFcBAABCAAQBQJmcES%2BCRC1aQ7uu5UhlAAAnDgQAFo0DJXhANqt%2FHyDocMP1nZC%5Cn9gr1ahESnus9G%2BEWfrgfd0SLUTJmDjxckFCK9QXMwg97QteRRmj2cPyppy0wktBB%5Cn2oAC4KjrBu2EnXUYNdhhB%2BpAotHv0A7oCWsJEKNKd3y9%2FvhIaS6nYIt4wS5cD7Ce%5CnykjXBJU2bW9yndbmz4kC9dF66zyDBknGCcsu5qE5vlGnLgAO4KJU1LzMgORjF9YD%5Cne7Dt6hq09Uxb%2F1OisfClkk6n0xXuJPcxmRscRiLxXib3840kZgGzVHRcKru6cWAX%5CnS3EZYdDNe%2FyvsFSGbmMsG4nDAWyKoX9OTDMC7e8DQm3%2FcJckXPA2lF8NLqPbeQ%2Br%5CnV9wrShZnYoHJZDOmxKIA7keVucneqzcDOdJIQKmlQZUrZjhJut4lQF49Tq4eJKVZ%5CnMU3ayZJkWgx3oAZTayq0yj3vGI5f7ePRkKr42cnhR7MdWVfTC9ov4lSpxatNI9mM%5CnezMGwaGh%2BHJ4JN%2B%2BAPHQ8oZFnn%2FA00B8pFptCjv84goTC3%2FBCboni%2Bzh23efYbpb%5Cnku8VqCdAJhMbPrv9w%2BOBBjNtdrv1hTJUrnKCRPsMyWIrKOyNtUzuSdOU0LjgI1g0%5Cnx2oRkV6VEukmv2ggAv1vEff%2BynNSPkdboavLA5NVOnnMp4HQMxzixr%2BqGjqG%2F8ip%5CnfnwMfG2u1W6JAz94f%2B7G%5Cn%3Dos5y%5Cn-----END%20PGP%20SIGNATURE-----%5Cn%22%7D%7D::Release::rocket::Release::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%7B%22oid%22%3A%22e701f297b4c2ac5954d0d960f5addeb3760e287c%22%2C%22short%22%3A%22e701f29%22%2C%22commit%22%3A%7B%22message%22%3A%22Remove%20empty%20redirect%5Cn%22%2C%22parent%22%3A%5B%228c1df2b5c3a53ef3eb0399e0e6cfdd5dfbfd34ae%22%5D%2C%22tree%22%3A%226cf1418a5ca85f967c8c624c752434bcba6d24c3%22%2C%22author%22%3A%7B%22name%22%3A%22Viktor%20Marinho%22%2C%22email%22%3A%2256888067%2Bviktormarinho%40users.noreply.github.com%22%2C%22timestamp%22%3A1718633662%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22GitHub%22%2C%22email%22%3A%22noreply%40github.com%22%2C%22timestamp%22%3A1718633662%2C%22timezoneOffset%22%3A180%7D%2C%22gpgsig%22%3A%22-----BEGIN%20PGP%20SIGNATURE-----%5Cn%5CnwsFcBAABCAAQBQJmcES%2BCRC1aQ7uu5UhlAAAnDgQAFo0DJXhANqt%2FHyDocMP1nZC%5Cn9gr1ahESnus9G%2BEWfrgfd0SLUTJmDjxckFCK9QXMwg97QteRRmj2cPyppy0wktBB%5Cn2oAC4KjrBu2EnXUYNdhhB%2BpAotHv0A7oCWsJEKNKd3y9%2FvhIaS6nYIt4wS5cD7Ce%5CnykjXBJU2bW9yndbmz4kC9dF66zyDBknGCcsu5qE5vlGnLgAO4KJU1LzMgORjF9YD%5Cne7Dt6hq09Uxb%2F1OisfClkk6n0xXuJPcxmRscRiLxXib3840kZgGzVHRcKru6cWAX%5CnS3EZYdDNe%2FyvsFSGbmMsG4nDAWyKoX9OTDMC7e8DQm3%2FcJckXPA2lF8NLqPbeQ%2Br%5CnV9wrShZnYoHJZDOmxKIA7keVucneqzcDOdJIQKmlQZUrZjhJut4lQF49Tq4eJKVZ%5CnMU3ayZJkWgx3oAZTayq0yj3vGI5f7ePRkKr42cnhR7MdWVfTC9ov4lSpxatNI9mM%5CnezMGwaGh%2BHJ4JN%2B%2BAPHQ8oZFnn%2FA00B8pFptCjv84goTC3%2FBCboni%2Bzh23efYbpb%5Cnku8VqCdAJhMbPrv9w%2BOBBjNtdrv1hTJUrnKCRPsMyWIrKOyNtUzuSdOU0LjgI1g0%5Cnx2oRkV6VEukmv2ggAv1vEff%2BynNSPkdboavLA5NVOnnMp4HQMxzixr%2BqGjqG%2F8ip%5CnfnwMfG2u1W6JAz94f%2B7G%5Cn%3Dos5y%5Cn-----END%20PGP%20SIGNATURE-----%5Cn%22%7D%7D::Release::rocket::Release::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%7B%22oid%22%3A%22e701f297b4c2ac5954d0d960f5addeb3760e287c%22%2C%22short%22%3A%22e701f29%22%2C%22commit%22%3A%7B%22message%22%3A%22Remove%20empty%20redirect%5Cn%22%2C%22parent%22%3A%5B%228c1df2b5c3a53ef3eb0399e0e6cfdd5dfbfd34ae%22%5D%2C%22tree%22%3A%226cf1418a5ca85f967c8c624c752434bcba6d24c3%22%2C%22author%22%3A%7B%22name%22%3A%22Viktor%20Marinho%22%2C%22email%22%3A%2256888067%2Bviktormarinho%40users.noreply.github.com%22%2C%22timestamp%22%3A1718633662%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22GitHub%22%2C%22email%22%3A%22noreply%40github.com%22%2C%22timestamp%22%3A1718633662%2C%22timezoneOffset%22%3A180%7D%2C%22gpgsig%22%3A%22-----BEGIN%20PGP%20SIGNATURE-----%5Cn%5CnwsFcBAABCAAQBQJmcES%2BCRC1aQ7uu5UhlAAAnDgQAFo0DJXhANqt%2FHyDocMP1nZC%5Cn9gr1ahESnus9G%2BEWfrgfd0SLUTJmDjxckFCK9QXMwg97QteRRmj2cPyppy0wktBB%5Cn2oAC4KjrBu2EnXUYNdhhB%2BpAotHv0A7oCWsJEKNKd3y9%2FvhIaS6nYIt4wS5cD7Ce%5CnykjXBJU2bW9yndbmz4kC9dF66zyDBknGCcsu5qE5vlGnLgAO4KJU1LzMgORjF9YD%5Cne7Dt6hq09Uxb%2F1OisfClkk6n0xXuJPcxmRscRiLxXib3840kZgGzVHRcKru6cWAX%5CnS3EZYdDNe%2FyvsFSGbmMsG4nDAWyKoX9OTDMC7e8DQm3%2FcJckXPA2lF8NLqPbeQ%2Br%5CnV9wrShZnYoHJZDOmxKIA7keVucneqzcDOdJIQKmlQZUrZjhJut4lQF49Tq4eJKVZ%5CnMU3ayZJkWgx3oAZTayq0yj3vGI5f7ePRkKr42cnhR7MdWVfTC9ov4lSpxatNI9mM%5CnezMGwaGh%2BHJ4JN%2B%2BAPHQ8oZFnn%2FA00B8pFptCjv84goTC3%2FBCboni%2Bzh23efYbpb%5Cnku8VqCdAJhMbPrv9w%2BOBBjNtdrv1hTJUrnKCRPsMyWIrKOyNtUzuSdOU0LjgI1g0%5Cnx2oRkV6VEukmv2ggAv1vEff%2BynNSPkdboavLA5NVOnnMp4HQMxzixr%2BqGjqG%2F8ip%5CnfnwMfG2u1W6JAz94f%2B7G%5Cn%3Dos5y%5Cn-----END%20PGP%20SIGNATURE-----%5Cn%22%7D%7D::Release::rocket::Release::%7B%7D"
-=======
-                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FTopBar.tsx.json::Preview::world::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FTopBar.tsx.json::Preview::world::Preview::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FTopBar.tsx.json::Preview::world::Preview::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 49.99999999999999,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FTopBar.tsx.json::Code::code::Code::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FTopBar.tsx.json::Code::code::Code::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FTopBar.tsx.json::Code::code::Code::%7B%7D"
->>>>>>> 0f0c8a9c01a94888eb214f4c53399149c2fd8fc2
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "isClosable": true,
-        "reorderEnabled": true,
-        "title": "",
-        "openPopouts": [],
-        "maximisedItemId": null
-      },
-      "tabs": {
-<<<<<<< HEAD
-        "%7B%22oid%22%3A%22e701f297b4c2ac5954d0d960f5addeb3760e287c%22%2C%22short%22%3A%22e701f29%22%2C%22commit%22%3A%7B%22message%22%3A%22Remove%20empty%20redirect%5Cn%22%2C%22parent%22%3A%5B%228c1df2b5c3a53ef3eb0399e0e6cfdd5dfbfd34ae%22%5D%2C%22tree%22%3A%226cf1418a5ca85f967c8c624c752434bcba6d24c3%22%2C%22author%22%3A%7B%22name%22%3A%22Viktor%20Marinho%22%2C%22email%22%3A%2256888067%2Bviktormarinho%40users.noreply.github.com%22%2C%22timestamp%22%3A1718633662%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22GitHub%22%2C%22email%22%3A%22noreply%40github.com%22%2C%22timestamp%22%3A1718633662%2C%22timezoneOffset%22%3A180%7D%2C%22gpgsig%22%3A%22-----BEGIN%20PGP%20SIGNATURE-----%5Cn%5CnwsFcBAABCAAQBQJmcES%2BCRC1aQ7uu5UhlAAAnDgQAFo0DJXhANqt%2FHyDocMP1nZC%5Cn9gr1ahESnus9G%2BEWfrgfd0SLUTJmDjxckFCK9QXMwg97QteRRmj2cPyppy0wktBB%5Cn2oAC4KjrBu2EnXUYNdhhB%2BpAotHv0A7oCWsJEKNKd3y9%2FvhIaS6nYIt4wS5cD7Ce%5CnykjXBJU2bW9yndbmz4kC9dF66zyDBknGCcsu5qE5vlGnLgAO4KJU1LzMgORjF9YD%5Cne7Dt6hq09Uxb%2F1OisfClkk6n0xXuJPcxmRscRiLxXib3840kZgGzVHRcKru6cWAX%5CnS3EZYdDNe%2FyvsFSGbmMsG4nDAWyKoX9OTDMC7e8DQm3%2FcJckXPA2lF8NLqPbeQ%2Br%5CnV9wrShZnYoHJZDOmxKIA7keVucneqzcDOdJIQKmlQZUrZjhJut4lQF49Tq4eJKVZ%5CnMU3ayZJkWgx3oAZTayq0yj3vGI5f7ePRkKr42cnhR7MdWVfTC9ov4lSpxatNI9mM%5CnezMGwaGh%2BHJ4JN%2B%2BAPHQ8oZFnn%2FA00B8pFptCjv84goTC3%2FBCboni%2Bzh23efYbpb%5Cnku8VqCdAJhMbPrv9w%2BOBBjNtdrv1hTJUrnKCRPsMyWIrKOyNtUzuSdOU0LjgI1g0%5Cnx2oRkV6VEukmv2ggAv1vEff%2BynNSPkdboavLA5NVOnnMp4HQMxzixr%2BqGjqG%2F8ip%5CnfnwMfG2u1W6JAz94f%2B7G%5Cn%3Dos5y%5Cn-----END%20PGP%20SIGNATURE-----%5Cn%22%7D%7D::Release::rocket::Release::%7B%7D": {
-          "name": "Release",
-          "icon": "rocket",
-          "render": "function",
-          "viewId": "Release",
-          "id": "%7B%22oid%22%3A%22e701f297b4c2ac5954d0d960f5addeb3760e287c%22%2C%22short%22%3A%22e701f29%22%2C%22commit%22%3A%7B%22message%22%3A%22Remove%20empty%20redirect%5Cn%22%2C%22parent%22%3A%5B%228c1df2b5c3a53ef3eb0399e0e6cfdd5dfbfd34ae%22%5D%2C%22tree%22%3A%226cf1418a5ca85f967c8c624c752434bcba6d24c3%22%2C%22author%22%3A%7B%22name%22%3A%22Viktor%20Marinho%22%2C%22email%22%3A%2256888067%2Bviktormarinho%40users.noreply.github.com%22%2C%22timestamp%22%3A1718633662%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22GitHub%22%2C%22email%22%3A%22noreply%40github.com%22%2C%22timestamp%22%3A1718633662%2C%22timezoneOffset%22%3A180%7D%2C%22gpgsig%22%3A%22-----BEGIN%20PGP%20SIGNATURE-----%5Cn%5CnwsFcBAABCAAQBQJmcES%2BCRC1aQ7uu5UhlAAAnDgQAFo0DJXhANqt%2FHyDocMP1nZC%5Cn9gr1ahESnus9G%2BEWfrgfd0SLUTJmDjxckFCK9QXMwg97QteRRmj2cPyppy0wktBB%5Cn2oAC4KjrBu2EnXUYNdhhB%2BpAotHv0A7oCWsJEKNKd3y9%2FvhIaS6nYIt4wS5cD7Ce%5CnykjXBJU2bW9yndbmz4kC9dF66zyDBknGCcsu5qE5vlGnLgAO4KJU1LzMgORjF9YD%5Cne7Dt6hq09Uxb%2F1OisfClkk6n0xXuJPcxmRscRiLxXib3840kZgGzVHRcKru6cWAX%5CnS3EZYdDNe%2FyvsFSGbmMsG4nDAWyKoX9OTDMC7e8DQm3%2FcJckXPA2lF8NLqPbeQ%2Br%5CnV9wrShZnYoHJZDOmxKIA7keVucneqzcDOdJIQKmlQZUrZjhJut4lQF49Tq4eJKVZ%5CnMU3ayZJkWgx3oAZTayq0yj3vGI5f7ePRkKr42cnhR7MdWVfTC9ov4lSpxatNI9mM%5CnezMGwaGh%2BHJ4JN%2B%2BAPHQ8oZFnn%2FA00B8pFptCjv84goTC3%2FBCboni%2Bzh23efYbpb%5Cnku8VqCdAJhMbPrv9w%2BOBBjNtdrv1hTJUrnKCRPsMyWIrKOyNtUzuSdOU0LjgI1g0%5Cnx2oRkV6VEukmv2ggAv1vEff%2BynNSPkdboavLA5NVOnnMp4HQMxzixr%2BqGjqG%2F8ip%5CnfnwMfG2u1W6JAz94f%2B7G%5Cn%3Dos5y%5Cn-----END%20PGP%20SIGNATURE-----%5Cn%22%7D%7D::Release::rocket::Release::%7B%7D",
-=======
-        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FTopBar.tsx.json::Preview::world::Preview::%7B%7D": {
-          "name": "Preview",
-          "icon": "world",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Preview",
-          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FTopBar.tsx.json::Preview::world::Preview::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FTopBar.tsx.json::Code::code::Code::%7B%7D": {
-          "name": "Code",
-          "icon": "code",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Code",
-          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FTopBar.tsx.json::Code::code::Code::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        }
-      }
-    },
-    {
-      "id": "/.deco/blocks/Preview%20%2Fsections%2FEtapaSelecao%2FHeader.tsx.json",
-      "name": "Preview /sections/EtapaSelecao/Header.tsx",
-      "pinned": false,
-      "icon": "package",
-      "layout": {
-        "settings": {
-          "hasHeaders": true,
-          "constrainDragToContainer": true,
-          "reorderEnabled": true,
-          "selectionEnabled": false,
-          "popoutWholeStack": false,
-          "blockedPopoutsThrowError": true,
-          "closePopoutsOnUnload": true,
-          "showPopoutIcon": false,
-          "showMaximiseIcon": false,
-          "showCloseIcon": false,
-          "responsiveMode": "onload"
-        },
-        "dimensions": {
-          "borderWidth": 8,
-          "minItemHeight": 10,
-          "minItemWidth": 10,
-          "headerHeight": 40,
-          "dragProxyWidth": 300,
-          "dragProxyHeight": 200
-        },
-        "labels": {
-          "close": "close",
-          "maximise": "maximise",
-          "minimise": "minimise",
-          "popout": "open in new window",
-          "popin": "pop in",
-          "tabDropdown": "additional tabs"
-        },
-        "content": [
-          {
-            "type": "row",
-            "isClosable": true,
-            "reorderEnabled": true,
-            "title": "",
-            "content": [
-              {
-                "type": "stack",
-                "width": 25.07790704035302,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FHeader.tsx.json::Properties::list::Properties::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FHeader.tsx.json::Properties::list::Properties::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FHeader.tsx.json::Properties::list::Properties::%7B%7D"
-                    },
-                    "width": 30,
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 44.839737453122055,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FHeader.tsx.json::Preview::world::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FHeader.tsx.json::Preview::world::Preview::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FHeader.tsx.json::Preview::world::Preview::%7B%7D"
-                    },
-                    "width": 70,
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 30.08235550652492,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FHeader.tsx.json::Code::code::Code::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FHeader.tsx.json::Code::code::Code::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FHeader.tsx.json::Code::code::Code::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "isClosable": true,
-        "reorderEnabled": true,
-        "title": "",
-        "openPopouts": [],
-        "maximisedItemId": null
-      },
-      "tabs": {
-        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FHeader.tsx.json::Properties::list::Properties::%7B%7D": {
-          "name": "Properties",
-          "icon": "list",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Properties",
-          "width": 30,
-          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FHeader.tsx.json::Properties::list::Properties::%7B%7D",
-          "state": {
-            "__signal": null,
-            "value": null
-          }
-        },
-        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FHeader.tsx.json::Preview::world::Preview::%7B%7D": {
-          "name": "Preview",
-          "icon": "world",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Preview",
-          "width": 70,
-          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FHeader.tsx.json::Preview::world::Preview::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FHeader.tsx.json::Code::code::Code::%7B%7D": {
-          "name": "Code",
-          "icon": "code",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Code",
-          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FHeader.tsx.json::Code::code::Code::%7B%7D",
-          "state": {
-            "__signal": null,
-            "value": null
-          }
-        }
-      }
-    },
-    {
-      "id": "/.deco/blocks/Preview%20site%2Fsections%2FEtapaSelecao%2FContent.tsx.json",
-      "name": "Content.tsx",
-      "pinned": false,
-      "icon": "code",
-      "layout": {
-        "settings": {
-          "hasHeaders": true,
-          "constrainDragToContainer": true,
-          "reorderEnabled": true,
-          "selectionEnabled": false,
-          "popoutWholeStack": false,
-          "blockedPopoutsThrowError": true,
-          "closePopoutsOnUnload": true,
-          "showPopoutIcon": false,
-          "showMaximiseIcon": false,
-          "showCloseIcon": false,
-          "responsiveMode": "onload"
-        },
-        "dimensions": {
-          "borderWidth": 8,
-          "minItemHeight": 10,
-          "minItemWidth": 10,
-          "headerHeight": 40,
-          "dragProxyWidth": 300,
-          "dragProxyHeight": 200
-        },
-        "labels": {
-          "close": "close",
-          "maximise": "maximise",
-          "minimise": "minimise",
-          "popout": "open in new window",
-          "popin": "pop in",
-          "tabDropdown": "additional tabs"
-        },
-        "content": [
-          {
-            "type": "row",
-            "isClosable": true,
-            "reorderEnabled": true,
-            "title": "",
-            "content": [
-              {
-                "type": "stack",
-                "width": 50,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FEtapaSelecao%252FContent.tsx.json::Preview::world::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FEtapaSelecao%252FContent.tsx.json::Preview::world::Preview::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FEtapaSelecao%252FContent.tsx.json::Preview::world::Preview::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 50,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FEtapaSelecao%252FContent.tsx.json::Code::code::Code::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FEtapaSelecao%252FContent.tsx.json::Code::code::Code::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FEtapaSelecao%252FContent.tsx.json::Code::code::Code::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "isClosable": true,
-        "reorderEnabled": true,
-        "title": "",
-        "openPopouts": [],
-        "maximisedItemId": null
-      },
-      "tabs": {
-        "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FEtapaSelecao%252FContent.tsx.json::Preview::world::Preview::%7B%7D": {
-          "name": "Preview",
-          "icon": "world",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Preview",
-          "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FEtapaSelecao%252FContent.tsx.json::Preview::world::Preview::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FEtapaSelecao%252FContent.tsx.json::Code::code::Code::%7B%7D": {
-          "name": "Code",
-          "icon": "code",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Code",
-          "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FEtapaSelecao%252FContent.tsx.json::Code::code::Code::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        }
-      }
-    },
-    {
-      "id": "/.deco/blocks/Preview%20%2Fsections%2FEtapaSelecao%2FHeaderSelecao.tsx.json",
-      "name": "Preview /sections/EtapaSelecao/HeaderSelecao.tsx",
-      "pinned": false,
-      "icon": "package",
-      "layout": {
-        "settings": {
-          "hasHeaders": true,
-          "constrainDragToContainer": true,
-          "reorderEnabled": true,
-          "selectionEnabled": false,
-          "popoutWholeStack": false,
-          "blockedPopoutsThrowError": true,
-          "closePopoutsOnUnload": true,
-          "showPopoutIcon": false,
-          "showMaximiseIcon": false,
-          "showCloseIcon": false,
-          "responsiveMode": "onload"
-        },
-        "dimensions": {
-          "borderWidth": 8,
-          "minItemHeight": 10,
-          "minItemWidth": 10,
-          "headerHeight": 40,
-          "dragProxyWidth": 300,
-          "dragProxyHeight": 200
-        },
-        "labels": {
-          "close": "close",
-          "maximise": "maximise",
-          "minimise": "minimise",
-          "popout": "open in new window",
-          "popin": "pop in",
-          "tabDropdown": "additional tabs"
-        },
-        "content": [
-          {
-            "type": "row",
-            "isClosable": true,
-            "reorderEnabled": true,
-            "title": "",
-            "content": [
-              {
-                "type": "stack",
-                "width": 41.66666666666667,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FHeaderSelecao.tsx.json::Properties::list::Properties::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FHeaderSelecao.tsx.json::Properties::list::Properties::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FHeaderSelecao.tsx.json::Properties::list::Properties::%7B%7D"
-                    },
-                    "width": 30,
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 58.333333333333336,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FHeaderSelecao.tsx.json::Preview::world::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FHeaderSelecao.tsx.json::Preview::world::Preview::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FHeaderSelecao.tsx.json::Preview::world::Preview::%7B%7D"
-                    },
-                    "width": 70,
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "isClosable": true,
-        "reorderEnabled": true,
-        "title": "",
-        "openPopouts": [],
-        "maximisedItemId": null
-      },
-      "tabs": {
-        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FHeaderSelecao.tsx.json::Properties::list::Properties::%7B%7D": {
-          "name": "Properties",
-          "icon": "list",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Properties",
-          "width": 30,
-          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FHeaderSelecao.tsx.json::Properties::list::Properties::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FHeaderSelecao.tsx.json::Preview::world::Preview::%7B%7D": {
-          "name": "Preview",
-          "icon": "world",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Preview",
-          "width": 70,
-          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FHeaderSelecao.tsx.json::Preview::world::Preview::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        }
-      }
-    },
-    {
-      "id": "/.deco/blocks/Preview%20%2Fsections%2FEtapaSelecao%2FFooterSelecao.tsx.json",
-      "name": "Preview /sections/EtapaSelecao/FooterSelecao.tsx",
-      "pinned": false,
-      "icon": "package",
-      "layout": {
-        "settings": {
-          "hasHeaders": true,
-          "constrainDragToContainer": true,
-          "reorderEnabled": true,
-          "selectionEnabled": false,
-          "popoutWholeStack": false,
-          "blockedPopoutsThrowError": true,
-          "closePopoutsOnUnload": true,
-          "showPopoutIcon": false,
-          "showMaximiseIcon": false,
-          "showCloseIcon": false,
-          "responsiveMode": "onload"
-        },
-        "dimensions": {
-          "borderWidth": 8,
-          "minItemHeight": 10,
-          "minItemWidth": 10,
-          "headerHeight": 40,
-          "dragProxyWidth": 300,
-          "dragProxyHeight": 200
-        },
-        "labels": {
-          "close": "close",
-          "maximise": "maximise",
-          "minimise": "minimise",
-          "popout": "open in new window",
-          "popin": "pop in",
-          "tabDropdown": "additional tabs"
-        },
-        "content": [
-          {
-            "type": "row",
-            "isClosable": true,
-            "reorderEnabled": true,
-            "title": "",
-            "content": [
-              {
-                "type": "stack",
-                "width": 41.66666666666667,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FFooterSelecao.tsx.json::Properties::list::Properties::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FFooterSelecao.tsx.json::Properties::list::Properties::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FFooterSelecao.tsx.json::Properties::list::Properties::%7B%7D"
-                    },
-                    "width": 30,
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 58.333333333333336,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FFooterSelecao.tsx.json::Preview::world::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FFooterSelecao.tsx.json::Preview::world::Preview::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FFooterSelecao.tsx.json::Preview::world::Preview::%7B%7D"
-                    },
-                    "width": 70,
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "isClosable": true,
-        "reorderEnabled": true,
-        "title": "",
-        "openPopouts": [],
-        "maximisedItemId": null
-      },
-      "tabs": {
-        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FFooterSelecao.tsx.json::Properties::list::Properties::%7B%7D": {
-          "name": "Properties",
-          "icon": "list",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Properties",
-          "width": 30,
-          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FFooterSelecao.tsx.json::Properties::list::Properties::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FFooterSelecao.tsx.json::Preview::world::Preview::%7B%7D": {
-          "name": "Preview",
-          "icon": "world",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Preview",
-          "width": 70,
-          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FEtapaSelecao%252FFooterSelecao.tsx.json::Preview::world::Preview::%7B%7D",
->>>>>>> 0f0c8a9c01a94888eb214f4c53399149c2fd8fc2
           "state": {
             "__signal": null
           }

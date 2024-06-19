@@ -1,0 +1,22 @@
+{
+  "name": "Etapa Vestibular 2",
+  "path": "/etapa_vestibular2",
+  "sections": [
+    {
+      "__resolveType": "Preview /sections/EtapaSelecao/HeaderSelecao.tsx"
+    },
+    {
+      "__resolveType": "Preview /sections/EtapaSelecao/TopBar.tsx"
+    },
+    {
+      "__resolveType": "Preview site/sections/EtapaSelecao/Content.tsx"
+    },
+    {
+      "__resolveType": "Preview /sections/EtapaSelecao/FooterSelecao.tsx"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

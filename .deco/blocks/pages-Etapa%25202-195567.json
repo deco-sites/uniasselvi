@@ -1,0 +1,9 @@
+{
+  "name": "Etapa 2",
+  "path": "/selecao2/etapa_vestibular_2",
+  "sections": [],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
