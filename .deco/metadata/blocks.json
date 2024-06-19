@@ -65,12 +65,6 @@
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
-  "/.deco/blocks/pages-Etapa%25202-516687.json": {
-    "name": "Etapa 2",
-    "path": "/selecao2/etapa_vestibular_2",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
-  },
   "/.deco/blocks/Preview%20%2Fsections%2FEtapaSelecao%2FTopBar.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/EtapaSelecao/TopBar.tsx"
@@ -90,5 +84,11 @@
   "/.deco/blocks/Preview%20%2Fsections%2FEtapaSelecao%2FFooterSelecao.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/EtapaSelecao/FooterSelecao.tsx"
+  },
+  "/.deco/blocks/pages-My%2520New%2520Page-869710.json": {
+    "name": "EtapaSelecao",
+    "path": "/etapa-selecao",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

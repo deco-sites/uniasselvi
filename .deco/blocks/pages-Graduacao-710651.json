@@ -9,9 +9,12 @@
       "__resolveType": "site/sections/BannerGraduacao.tsx"
     },
     {
-      "__resolveType": "site/sections/SelecioneOCurso.tsx",
+      "__resolveType": "site/sections/SelecioneOCurso.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Cursos.tsx",
       "cursos": {
-        "__resolveType": "site/loaders/cursos.ts"
+        "__resolveType": "Preview site/loaders/cursos.ts"
       }
     },
     {
