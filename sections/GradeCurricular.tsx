@@ -25,7 +25,7 @@ function GradeCurricular({
                                 <div class="flex-1 text-center py-3 px-2">
                                     <p class="text-black font-base text-xl">Mercado de Trabalho</p>
                                 </div>
-                                <button class="flex-1 text-center py-3 px-2 bg-gradient-to-b from-[#d5d5d5] to-[#b9b9b9] text-black font-base text-xl" onclick="my_modal_2.showModal()">Grade Curricular</button>
+                                <button class="flex-1 text-center py-3 px-2 bg-gradient-to-b from-[#d5d5d5] to-[#b9b9b9] text-black font-base text-xl" onclick={()=>document.getElementById('my_modal_2').showModal()}>Grade Curricular</button>
                             </div>
                             
                             <dialog id="my_modal_2" class="modal">

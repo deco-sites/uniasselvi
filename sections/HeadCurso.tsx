@@ -1,7 +1,10 @@
 // import React, { useEffect, useRef } from 'react';
+import { type Curso } from "site/apps/types.ts";
+import Oferta from "../islands/Oferta.tsx";
 
 interface Props {
     // image?: ImageWidget;
+    cursos: Curso[];
     curso?: string;
     tipo_curso?: string;
     semestre?: string;
@@ -49,7 +52,8 @@ interface Props {
     text_10?: string;
 }
 
-function HeadCurso({
+export default function HeadCurso({
+    cursos,
     curso = "Made with",
     tipo_curso = "Made with",
     semestre = "Made with",
@@ -60,7 +64,8 @@ function HeadCurso({
     text_8 = "Made with",
     text_9 = "Made with",
     text_10 = "Made with",
-  }: Props) {
+}: Props) {
+
     return (
         <section class="bg-[#e6e7e6]">
             <div class="container px-[1rem] pt-[64px] pb-[50px]">
@@ -74,48 +79,9 @@ function HeadCurso({
                     <h1 class="text-4xl text-black font-bold mb-6">{curso}</h1>
                 </div>
                 <div class="flex flex-col md:flex-row gap-[24px]">
-                    
-                    <div class="basis-full md:basis-1/2 md:order-2">
-                        
-                        <iframe class="aspect-video mb-10" width="100%" src="https://www.youtube.com/embed/qAGTbTVwHSQ?si=SqbLqN5qhN1F08aq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-                        <script src="/cardScript.js"></script>
+                    <Oferta cursos={cursos} />
 
-                        <div id="card" class="bg-[#3a3b39] shadow-[0px_4px_4px_0px_rgba(0,_0,_0,_0.25)] rounded-[16px] z-10">
-                            <ul class="steps bg-[#30312f] w-full rounded-t-[16px] py-5 px-10">
-                                <li class="step step-warning"><p class="text-xs text-white">Selecione o curso</p></li>
-                                <li class="step step-warning"><p class="text-xs text-white">Selecione sua localidade</p></li>
-                                <li class="step"><p class="text-xs text-white">Confira a melhor oferta</p></li>
-                                <li class="step"><p class="text-xs text-white">Inscreva-se</p></li>
-                            </ul>
-                            <p class="text-4xl font-bold text-[#ffdd00] px-5">Seu caminho para o sucesso começa aqui</p>
-                            <p class="text-2xl font-base text-white my-4 px-5">Selecione o <strong>Estado</strong> a <strong>Cidade</strong> e a <strong>Unidade</strong> em que deseja iniciar sua jornada.</p>
-                            <div class="grid grid-cols-2 gap-[15px] px-5 pb-5">
-                                <div class="grid gap-[7px]">
-                                    <label for="" class="text-xl text-white">Estado</label>
-                                    <select name="" id="" class="bg-white border border-black rounded-md text-xl py-2 px-4">
-                                        <option value=""></option>
-                                    </select>
-                                </div>
-                                <div class="grid gap-[7px]">
-                                    <label for="" class="text-xl text-white">Cidade</label>
-                                    <select name="" id="" class="bg-white border border-black rounded-md text-xl py-2 px-4">
-                                        <option value=""></option>
-                                    </select>
-                                </div>
-                                <div class="col-span-2 grid gap-[7px]">
-                                    <label for="" class="text-xl text-white">Unidade/Polo</label>
-                                    <select name="" id="" class="bg-white border border-black rounded-md text-xl py-2 px-4">
-                                        <option value=""></option>
-                                    </select>
-                                </div>
-                                <div class="col-span-2">
-                                    <button class="block w-full py-3 px-6 text-2xl font-bold text-center text-[#ffdd00] uppercase border border-[#ffdd00] rounded-[6px]">Confira nossas ofertas</button>
-                                </div>
-    
-                            </div>
-                        </div>
-                    </div>
                     <div class="basis-full md:basis-1/2 md:order-1">
                         <div class="flex gap-[12px] mb-6">
                             <p class="text-black text-2xl italic">{tipo_curso}</p>
@@ -244,5 +210,3 @@ function HeadCurso({
         // <div>Aqui</div>
     );
 }
-
-export default HeadCurso;

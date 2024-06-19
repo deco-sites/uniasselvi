@@ -1,7 +1,9 @@
+import { type Curso } from "site/apps/types.ts";
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
 interface Props {
+    cursos: Curso[];
     image?: ImageWidget;
     /**
    * @format rich-text
@@ -12,12 +14,13 @@ interface Props {
     text_2?: string;
   }
   
-  function SelecioneOCurso({
-    image =
-    "",
+  export default function SelecioneOCurso({
+    cursos,
+    image = "",
     text_1 = "Made with",
-    text_2 = "Made with",
+    text_2 = "Made with"
   }: Props) {
+      
     return (
         <section class="bg-white pt-[64px] md:pt-0">
             <div class="container px-[1rem] py-10">
@@ -32,13 +35,17 @@ interface Props {
                         <div class="grid flex-1 gap-[7px]">
                             <label for="" class="text-xl text-black">Curso de interesse</label>
                             <select name="" id="" class="bg-white border border-[#aaa] rounded-md text-xl py-2 px-4">
-                                <option value=""></option>
+                                <option value="">- Selecione -</option>
+                                {cursos.map(curso => (
+                                    <option value="">{curso.ecur_nome}</option>
+                                ))}
                             </select>
                         </div>
                         <div class="grid flex-1 gap-[7px]">
                             <label for="" class="text-xl text-black">Modalidade</label>
                             <select name="" id="" class="bg-white border border-[#aaa] rounded-md text-xl py-2 px-4">
-                                <option value=""></option>
+                                <option value="">- Selecione -</option>
+                                <option value="ead">EAD</option>
                             </select>
                         </div>
                     </div>
@@ -47,5 +54,3 @@ interface Props {
         </section>
     );
 }
-
-export default SelecioneOCurso;

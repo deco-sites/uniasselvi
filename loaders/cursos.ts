@@ -14,3 +14,5 @@ export default async function cursos(
 
     return data.map(semestre => semestre.cursos).flat();
 }
+
+export const cache = 'stale-while-revalidate'

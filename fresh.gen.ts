@@ -6,6 +6,7 @@ import * as $_app from "./routes/_app.tsx";
 import * as $CpfInput from "./islands/CpfInput.tsx";
 import * as $Cursos from "./islands/Cursos.tsx";
 import * as $Form from "./islands/Form.tsx";
+import * as $Oferta from "./islands/Oferta.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -16,6 +17,7 @@ const manifest = {
     "./islands/CpfInput.tsx": $CpfInput,
     "./islands/Cursos.tsx": $Cursos,
     "./islands/Form.tsx": $Form,
+    "./islands/Oferta.tsx": $Oferta,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;

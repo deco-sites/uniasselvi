@@ -1,7 +1,8 @@
 import { App, AppContext as AC } from "deco/mod.ts";
 import website, { Props } from "apps/website/mod.ts";
-
+import { createHttpClient } from "apps/utils/http.ts";
 import manifest, { Manifest } from "../manifest.gen.ts";
+import { API } from "site/apps/api.ts";
 
 type WebsiteApp = ReturnType<typeof website>;
 
@@ -13,11 +14,16 @@ type WebsiteApp = ReturnType<typeof website>;
  */
 export default function Site(
   state: Props,
-): App<Manifest, Props, [
-  WebsiteApp,
-]> {
+) {
+  const api = createHttpClient<API>({
+    base: "https://www.uniasselvi.com.br",
+  });
+
   return {
-    state,
+    state: {
+      ...state, 
+      api,
+    },
     manifest,
     dependencies: [
       website(state),
