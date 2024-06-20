@@ -33,8 +33,16 @@ export default defineApp(async (_req, ctx) => {
                 `@font-face {
                   font-family: 'Neo Sans Std';
                   font-style: normal;
+                  font-weight: 400;
                   font-display: swap;
                   src: url(${asset("/neosansstd-regular.woff")}) format('woff');
+                }
+                @font-face {
+                  font-family: 'Neo Sans Std';
+                  font-style: normal;
+                  font-weight: 700;
+                  font-display: swap;
+                  src: url(${asset("/neosansstd-bold.woff")}) format('woff');
                 }
                 :root {
                   --font-family: 'Neo Sans Std';
