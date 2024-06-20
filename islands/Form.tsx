@@ -28,7 +28,8 @@ const etapaForm = useSignal<number>(active_index)
     estado: "",
     sexo: "",
     possui_medio: "",
-    ano_encerramento: ""
+      ano_encerramento: "",
+    whatsapp: "N"
   });
 
   const errors = useSignal({
@@ -154,14 +155,14 @@ const etapaForm = useSignal<number>(active_index)
   const handleCpfBlur = async () => {
     const response = await invoke.site.actions.cpfBlur({ cpf: data.value.cpf });
     const updates = {
-      nacionalidade: response.pessoa.pess_naci_desc,
-      nome: response.pessoa.pess_nome,
-      data_nasc: response.pessoa.pess_dnas,
-      sexo: response.pessoa.pess_sexo,
-      ano_encerramento: response.pessoa.pess_ance,
-      cep: response.pessoa.pess_cep,
-      numero: response.pessoa.pess_nume,
-      complemento: response.pessoa.pess_comp,
+      nacionalidade: response.pessoa.pess_naci_desc ? response.pessoa.pess_naci_desc : data.value.nacionalidade,
+      nome: response.pessoa.pess_nome ? response.pessoa.pess_nome : data.value.nome,
+      data_nasc: response.pessoa.pess_dnas ? response.pessoa.pess_dnas : data.value.data_nasc,
+      sexo: response.pessoa.pess_sexo ? response.pessoa.pess_sexo : data.value.sexo,
+      ano_encerramento: response.pessoa.pess_ance ? response.pessoa.pess_ance : data.value.ano_encerramento,
+      cep: response.pessoa.pess_cep ? response.pessoa.pess_cep : data.value.cep,
+      numero: response.pessoa.pess_nume ? response.pessoa.pess_nume : data.value.numero,
+      complemento: response.pessoa.pess_comp ? response.pessoa.pess_comp : data.value.complemento,
       possui_medio: response.pessoa.pess_ance ? 'S' : 'N'
     //   endereco: response.pessoa.pess_ende,
     };
@@ -179,7 +180,9 @@ const etapaForm = useSignal<number>(active_index)
             setValue?.call(element, data.value.cep);
             element.dispatchEvent(event);
         }
-    }
+      }
+      
+      console.log(data.value)
   }
 
     const formatCpf = (value: string) => {
@@ -464,7 +467,7 @@ const etapaForm = useSignal<number>(active_index)
                                         <img src="/whatsapp.png" width="35px" height="35px" alt="" />
                                     </div>
                                     <div className="flex items-center gap-[15px]">
-                                        <input type="checkbox" name="whatsapp" id="whatsapp" onChange={(e) => handleChange(e, e.currentTarget.value)}  />
+                                        <input type="checkbox" name="whatsapp" id="whatsapp" onChange={(e) => handleChange(e, e.currentTarget.value)} value="S"  />
                                         <label htmlFor="whatsapp">Autorizo o uso do WhatsApp no telefone informado</label>
                                     </div>
                                 </div>

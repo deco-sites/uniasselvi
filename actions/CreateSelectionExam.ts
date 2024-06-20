@@ -7,7 +7,7 @@ interface Props {
 export default async function CreateSelectionExam(props: Props, _req: Request, _ctx: AppContext) {
 
     const url = "https://api-applicant.uniasselvi.com.br/api/graphql/protected";
-    const token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE3MTgxMDUxMDMsImV4cCI6MTcxODcwOTkwMywicm9sZXMiOlsiUk9MRV9VU0VSIl0sInVzZXJuYW1lIjoiMDU0ODk0MjE5NjciLCJzaW11bGF0ZSI6ZmFsc2UsInNwZWNpYWxpemF0aW9ucyI6WyIxMDAwMDEzOTgiXSwicm9sZSI6IkFMVU4ifQ.cVqvlZJzZegqnYg4484ELIEtc8sKs6UQmQ1b9d6n9Rc526dZ-ShXDO_bHVDYMxvtbofoj7ljpxnX9J-Qu9FU4NOJwXy-YwbG1P8r_IdBH4BrXTq_siyxGbs7AOKXeqWA0zWsY059gLp1TZ9-BNZgCPmOfEQtaEHGz87prhpuvO0O-gODHw1-zPcdtFzpNqxQTbtmG2rXfWWHHCOaT7v2fCjzGQwbYg4C0ezgCmXZ13i2gu6RPS6TteU0cqjL8a7f4BIj7ggeWfXIlh8QgT9mloP8yJu52D0WvDIlZ3kkH3zAmKcpOoYbLrP2GqS5mEEEi7GV7ICivg6BusdhBXRb6rIvzrJIlP_J6JBVHSfdWmJbS3D5kicWUEOfS3_XvsGzI5JKKkf6CYvV6wpxu0yGDbuqKnRglj0FEKy71u38Pe0UhqwhLN_GIV8baeiybeL2OHgKlzNnvfjwdC5w0j11baiAPaXpovx3xZztX-GLJRi0cNqsoNxFaqEklbcwgAq3sBlr026r5CENJqdiaHcR6fQcJzUfKlWqyhaodeq6Ku1pEusRu-y-j0KETKDW3YBjkS9L9Jl85sOo8s1J49zw5eworWbo2hWX24QuqwJ6DiGTn83rMgsmyqQuq2Zpk3dWX0jsVQ76mM6TI6AOVROoOthaChURH27nB0xkxjwNXNE'; // Substitua pelo seu token JWT
+    const token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE3MTg4ODM2MjQsImV4cCI6MTcxOTQ4ODQyNCwicm9sZXMiOlsiUk9MRV9VU0VSIl0sInVzZXJuYW1lIjoiMjM2MDY4MDY4NDEiLCJzaW11bGF0ZSI6ZmFsc2UsInNwZWNpYWxpemF0aW9ucyI6WyI2NTMyOTczIiwiNzIyNTE1MiIsIjc3NzUwOTciLCIxMDAwMDUwMTEiXSwicm9sZSI6IkFMVU4ifQ.HrlY2rH7lNvqCtv7x5n-ZREZ3RQBBDa2jUWlJFo98yNY_23fpgXGBFZmZ1kkA7PECLFP8no2mACmlzK8LygX0iOu0JX17zroCLXn-UvuPs-_yAZKkc-arwvN6trdeVHLKphUlQw0yktZ-D0JXft3HFWYqjU2KArH9pjozJPprBkFADsuoHtHrWKDytsU5AjhlUrKjakBTXUisvKpmrzD6-1gmfaehZth1OVlh89mrV0deQXdxfN2EahO22nTloSDQC1J8puQ7KxX07EDPnfQKZVvfCUBrsZXfkKiLGB3BsR2o4LU3o_in_YckSzCqbTW7AchsEXpQB3DszROxOLCRYWXauWTap23VV-9jbTzv1CN6BM5BM4eXGyZxtZvkO5tOal2jWbCccLTMAL9VeozGKiyg39h-OBFYk05ycHEyrg9KePEvyfqmqS4_R-lwKQo76MrnpmC52WS5FTuKYmS_74UbOy1jAnXLaVI2Rx1yHQ8ABWepYwrGXMpbRNJ0rCg8WrwESPAiECC5Tj7S5grmvBApTCkrwGggDo-xKuIotbxF-S9Xlbxj4Hb2kMJnMfah6pxGUgi-fYkHYPFBEZ_WQhv83_QAguQh3904pnjytgEavIam0BHp1gdEyknPnqMeP9-rO4MP6HfMSZwRFEvtPpbB2LrbbBmEcq9GnFOHvE'; 
     
     const { dataToSend } = props; // Extrai dataToSend dos props
 
@@ -39,7 +39,7 @@ export default async function CreateSelectionExam(props: Props, _req: Request, _
 
         const responseData = await response.json();
 
-        return true; // Retorna dados conforme a interface PropsExam
+        return responseData; // Retorna dados conforme a interface PropsExam
     } catch (error) {
         console.error('Erro ao enviar requisição:', error);
         throw error; // Rejeita a promessa com o erro
