@@ -395,7 +395,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 30,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -417,7 +417,7 @@
               },
               {
                 "type": "stack",
-                "width": 70,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -456,8 +456,7 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Preview::world::Preview::%7B%7D": {
@@ -1335,7 +1334,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 30,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1357,7 +1356,7 @@
               },
               {
                 "type": "stack",
-                "width": 70,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1396,8 +1395,7 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-Home-99949.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-Home-99949.json::Preview::world::Preview::%7B%7D": {
@@ -1889,7 +1887,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 41.66666666666667,
+                "width": 30,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1911,7 +1909,7 @@
               },
               {
                 "type": "stack",
-                "width": 58.333333333333336,
+                "width": 70,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1950,7 +1948,8 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-My%252520New%252520Page-869710.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-My%252520New%252520Page-869710.json::Preview::world::Preview::%7B%7D": {
@@ -1968,8 +1967,8 @@
       }
     },
     {
-      "id": "/.deco/blocks/pages-Obrigado-289288.json",
-      "name": "Obrigado",
+      "id": "/.deco/blocks/pages-EtapaSelecao%25202-160274.json",
+      "name": "EtapaSelecao 2",
       "pinned": false,
       "icon": "file",
       "layout": {
@@ -2018,12 +2017,12 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "%2F.deco%2Fblocks%2Fpages-Obrigado-289288.json::Properties::list::Properties::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Obrigado-289288.json::Properties::list::Properties::%7B%7D\" />",
+                    "id": "%2F.deco%2Fblocks%2Fpages-EtapaSelecao%2525202-160274.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-EtapaSelecao%2525202-160274.json::Properties::list::Properties::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-Obrigado-289288.json::Properties::list::Properties::%7B%7D"
+                      "id": "%2F.deco%2Fblocks%2Fpages-EtapaSelecao%2525202-160274.json::Properties::list::Properties::%7B%7D"
                     },
                     "width": 30,
                     "isClosable": true,
@@ -2040,12 +2039,12 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "%2F.deco%2Fblocks%2Fpages-Obrigado-289288.json::Preview::world::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Obrigado-289288.json::Preview::world::Preview::%7B%7D\" />",
+                    "id": "%2F.deco%2Fblocks%2Fpages-EtapaSelecao%2525202-160274.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-EtapaSelecao%2525202-160274.json::Preview::world::Preview::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-Obrigado-289288.json::Preview::world::Preview::%7B%7D"
+                      "id": "%2F.deco%2Fblocks%2Fpages-EtapaSelecao%2525202-160274.json::Preview::world::Preview::%7B%7D"
                     },
                     "width": 70,
                     "isClosable": true,
@@ -2063,26 +2062,26 @@
         "maximisedItemId": null
       },
       "tabs": {
-        "%2F.deco%2Fblocks%2Fpages-Obrigado-289288.json::Properties::list::Properties::%7B%7D": {
+        "%2F.deco%2Fblocks%2Fpages-EtapaSelecao%2525202-160274.json::Properties::list::Properties::%7B%7D": {
           "name": "Properties",
           "icon": "list",
           "accepts": "function",
           "render": "function",
           "viewId": "Properties",
           "width": 30,
-          "id": "%2F.deco%2Fblocks%2Fpages-Obrigado-289288.json::Properties::list::Properties::%7B%7D",
+          "id": "%2F.deco%2Fblocks%2Fpages-EtapaSelecao%2525202-160274.json::Properties::list::Properties::%7B%7D",
           "state": {
             "__signal": null
           }
         },
-        "%2F.deco%2Fblocks%2Fpages-Obrigado-289288.json::Preview::world::Preview::%7B%7D": {
+        "%2F.deco%2Fblocks%2Fpages-EtapaSelecao%2525202-160274.json::Preview::world::Preview::%7B%7D": {
           "name": "Preview",
           "icon": "world",
           "accepts": "function",
           "render": "function",
           "viewId": "Preview",
           "width": 70,
-          "id": "%2F.deco%2Fblocks%2Fpages-Obrigado-289288.json::Preview::world::Preview::%7B%7D",
+          "id": "%2F.deco%2Fblocks%2Fpages-EtapaSelecao%2525202-160274.json::Preview::world::Preview::%7B%7D",
           "state": {
             "__signal": null
           }

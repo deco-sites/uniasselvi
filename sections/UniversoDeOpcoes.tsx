@@ -1,29 +1,23 @@
-import { ImageWidget } from "apps/admin/widgets.ts";
-import Image from "apps/website/components/Image.tsx";
-
 interface Props {
-    image?: ImageWidget;
-    /**
-   * @format rich-text
-   * @description The description of name.
-   * @default It Works!
-   */
-    text_1?: string;
-    text_2?: string;
+    gridColsDesk: number;
+    gridColsMobile: number;
+    titleSection?: string;
+    subTitleSection?: string;
   }
   
   function UniversoDeOpcoes({
-    image =
-    "",
-    text_1 = "Made with",
-    text_2 = "Made with",
+    gridColsDesk = 1,
+    gridColsMobile = 1,
+    titleSection = "Made with",
+    subTitleSection = "Made with",
   }: Props) {
     return (
-        <section class="bg-white py-8">
+        <section class="bg-light py-8">
             <div class="container px-[1rem]">
-                <h2 class="text-3xl font-bold text-black mb-4">Um universo de opções para sua evolução</h2>
-                <p class="text-md font-base text-black mb-8">Vale o que custa e não pesa no bolso!</p>
-                <div class="grid md:grid-cols-2 gap-8">
+                {/* <h2 class="text-3xl font-bold text-black mb-4">Um universo de opções para sua evolução</h2> */}
+                <h2 class="text-3xl font-bold text-black mb-4">{titleSection}</h2>
+                <p class="text-md font-base text-black mb-8">{subTitleSection}</p>
+                <div class={`grid grid-cols-${gridColsMobile} md:grid-cols-${gridColsDesk} gap-8`}>
                     <a href="/graduacao" class="bg-[#f9f9f9] flex items-center gap-4 p-4">
                         <div class="flex-[0_0_53px] h-[53px] rounded-full bg-[#FFDD00] flex justify-center items-center">
                             <svg width="23px" height="23px" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg"><path fill="#000000" points="368 350.643 256 413.643 144 350.643 144 284.081 112 266.303 112 369.357 256 450.357 400 369.357 400 266.303 368 284.081 368 350.643" class="ci-primary" d="M16.531 15.751 11.5 18.582l-5.031 -2.83v-2.99l-1.438 -0.799v4.63L11.5 20.23l6.469 -3.639v-4.63l-1.438 0.799z"></path><path fill="#000000" d="M11.5 2.065 1.438 7.283v1.246L11.5 14.118l8.625 -4.792v3.971h1.438V7.283Zm7.188 6.416 -1.438 0.798 -5.75 3.196 -5.75 -3.195 -1.438 -0.798 -0.996 -0.553L11.5 3.685l8.183 4.244Z" class="ci-primary"></path></svg>
