@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const navbarHeight = navbar.offsetHeight;
 
     function handleScroll() {
+      if (window.innerWidth <= 768) return;
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
       const footerOffsetTop = footer.offsetTop;
       const cardBottomFixed = scrollTop + cardHeight + navbarHeight + 20; // 20 is the margin from navbar
@@ -25,12 +26,19 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     }
 
-    window.addEventListener('scroll', handleScroll);
-    window.addEventListener('resize', function() {
-      // Recalculate positions in case of window resize
-      handleScroll();
-    });
+    function checkScreenWidth() {
+      if (window.innerWidth > 768) {
+        window.addEventListener('scroll', handleScroll);
+        handleScroll(); // Run initially in case the page is already scrolled
+      } else {
+        window.removeEventListener('scroll', handleScroll);
+        card.classList.remove('fixed', 'absolute');
+        card.style.top = 'auto';
+      }
+    }
 
-    // Initial check in case page is already scrolled
-    handleScroll();
+    window.addEventListener('resize', checkScreenWidth);
+
+    // Initial check
+    checkScreenWidth();
   });

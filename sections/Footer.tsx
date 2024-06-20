@@ -9,10 +9,10 @@ function Footer({
 }: Props) {
   return (
     <div>
-        <footer class="bg-[#f6f6f6] border-t border-[#0000001a] py-10 text-[#606060] hidden md:block">
+        <footer class="bg-[#f6f6f6] border-t border-[#0000001a] py-10 text-[#606060] hidden lg:block">
             <div class="container mx-0 md:mx-auto w-full md:w-auto">
                 <div class="flex flex-wrap md:gap-[15px]">
-                    <div class="flex-[1_1_auto] w-full md:w-auto min-w-[200px]">
+                    <div class="flex-[1_1_auto] w-full md:w-auto max-w-[260px]">
                         <h4 class="text-2xl font-bold p-0">Institucional</h4>
                         <ul class="px-3 md:px-0">
                             <li><a href="" class="text-md font-base py-2 px-3 md:px-0 block bg-white border md:bg-transparent md:border-0">Conheça a UNIASSELVI</a></li>
@@ -32,7 +32,7 @@ function Footer({
                         </ul>
                     </div>
                       
-                    <div class="flex-[1_1_auto] w-full md:w-auto min-w-[200px]">
+                    <div class="flex-[1_1_auto] w-full md:w-auto max-w-[260px]">
                         <h4 class="text-2xl font-bold p-0">Graduação</h4>
                         <ul class="px-3 md:px-0">
                             <li><a href="" class="text-md font-base py-2 px-3 md:px-0 block bg-white border md:bg-transparent md:border-0">Cursos</a></li>
@@ -47,7 +47,7 @@ function Footer({
                             <li><a href="" class="text-md font-base py-2 px-3 md:px-0 block bg-white border md:bg-transparent md:border-0 flex leading-3 gap-[10px]">Presencial <svg xmlns="http://www.w3.org/2000/svg" height="10px" width="10px" viewBox="0 0 512 512"><path stroke="#606060" d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"/></svg></a></li>
                         </ul>
                     </div>
-                    <div class="flex-[1_1_auto] w-full md:w-auto min-w-[200px]">
+                    <div class="flex-[1_1_auto] w-full md:w-auto max-w-[260px]">
                         <h4 class="text-2xl font-bold p-0">Pós-graduação</h4>
                         <ul class="px-3 md:px-0">
                             <li><a href="" class="text-md font-base py-2 px-3 md:px-0 block bg-white border md:bg-transparent md:border-0">Cursos</a></li>
@@ -66,7 +66,7 @@ function Footer({
                             <li><a href="" class="text-md font-base py-2 px-3 md:px-0 block bg-white border md:bg-transparent md:border-0">Portal do egresso</a></li>
                         </ul>
                     </div>
-                    <div class="flex-[1_1_auto] w-full md:w-auto min-w-[200px]">
+                    <div class="flex-[1_1_auto] w-full md:w-auto max-w-[260px]">
                         <h4 class="text-2xl font-bold p-0">Técnicos e Profissionalizantes</h4>
                         <ul class="px-3 md:px-0">
                             <li><a href="" class="text-md font-base py-2 px-3 md:px-0 block bg-white border md:bg-transparent md:border-0">Cursos</a></li>
@@ -81,7 +81,7 @@ function Footer({
                         </ul>
                         <img src="/img-1/e-mec.png" class="hidden md:block w-full max-w-[200px] mt-3" alt="" />
                     </div>
-                    <div class="flex-[1_1_auto] w-full md:w-auto min-w-[200px]">
+                    <div class="flex-[1_1_auto] w-full md:w-auto max-w-[260px]">
                         <h4 class="text-2xl font-bold p-0">Contato</h4>
                         <div class="flex items-center gap-[12px] px-3 md:px-0">
                             <div>
@@ -189,10 +189,10 @@ function Footer({
             </div>
         </footer>
 
-        <footer class="bg-[#f6f6f6] border-t border-[#0000001a] py-10 text-[#606060] md:hidden">
+        <footer class="bg-[#f6f6f6] border-t border-[#0000001a] py-10 text-[#606060] lg:hidden">
             <div class="container mx-0 md:mx-auto w-full md:w-auto">
                 <div class="flex flex-wrap md:gap-[15px]">
-                    <div class="flex-[1_1_auto] w-full md:w-auto min-w-[200px]">
+                    <div class="flex-[1_1_auto] w-full md:w-auto max-w-[260px]">
                         <div class="collapse border-y border-[#000000a1] md:border-0 rounded-none">
                             <input type="checkbox" class="md:hidden peer min-h-fit" />
                             <div class="collapse-title px-3 min-h-fit py-3 md:py-0 text-2xl font-bold p-0">
@@ -219,7 +219,7 @@ function Footer({
                         </div>
                     </div>
                       
-                    <div class="flex-[1_1_auto] w-full md:w-auto min-w-[200px]">
+                    <div class="flex-[1_1_auto] w-full md:w-auto max-w-[260px]">
                         <div class="collapse border-y border-[#000000a1] md:border-0 rounded-none">
                             <input type="checkbox" class="md:hidden peer min-h-fit" />
                             <div class="collapse-title px-3 min-h-fit py-3 md:py-0 text-2xl font-bold p-0">
@@ -241,7 +241,7 @@ function Footer({
                             </div>
                         </div>
                     </div>
-                    <div class="flex-[1_1_auto] w-full md:w-auto min-w-[200px]">
+                    <div class="flex-[1_1_auto] w-full md:w-auto max-w-[260px]">
                         <div class="collapse border-y border-[#000000a1] md:border-0 rounded-none">
                             <input type="checkbox" class="md:hidden peer min-h-fit" />
                             <div class="collapse-title px-3 min-h-fit py-3 md:py-0 text-2xl font-bold p-0">
@@ -274,7 +274,7 @@ function Footer({
                             </div>
                         </div>
                     </div>
-                    <div class="flex-[1_1_auto] w-full md:w-auto min-w-[200px]">
+                    <div class="flex-[1_1_auto] w-full md:w-auto max-w-[260px]">
                         <div class="collapse border-y border-[#000000a1] md:border-0 rounded-none">
                             <input type="checkbox" class="md:hidden peer min-h-fit" />
                             <div class="collapse-title px-3 min-h-fit py-3 md:py-0 text-2xl font-bold p-0">
@@ -303,7 +303,7 @@ function Footer({
                         </div>
                         <img src="/img-1/e-mec.png" class="hidden md:block w-full max-w-[200px] mt-3" alt="" />
                     </div>
-                    <div class="flex-[1_1_auto] w-full md:w-auto min-w-[200px]">
+                    <div class="flex-[1_1_auto] w-full md:w-auto max-w-[260px]">
                         <div class="collapse border-y border-[#000000a1] md:border-0 rounded-none">
                             <input type="checkbox" class="md:hidden peer min-h-fit" />
                             <div class="collapse-title px-3 min-h-fit py-3 md:py-0 text-2xl font-bold p-0">
