@@ -46,7 +46,7 @@ function Navbar({
                                     <div class="dropdown dropdown-hover p-0 bg-transparent rounded-md ">
                                         <div tabindex="0" role="button" class="btn text-xl font-bold text-black hover:text-white bg-transparent border-0 shadow-none m-1">Graduação</div>
                                         <ul tabindex="0" class="dropdown-content z-[1] menu p-0 shadow-[0_2px_5px_0_rgba(0,_0,_0,_.16),_0_2px_10px_0_rgba(0,_0,_0,_.12)] bg-white rounded-[3px] min-w-52 top-full ml-1">
-                                            <li><a class="text-lg text-black font-semibold py-3 px-5">Item 1</a></li>
+                                            <li><a href="/graduacao" class="text-lg text-black font-semibold py-3 px-5">Nossos Cursos</a></li>
                                             <li><a class="text-lg text-black font-semibold py-3 px-5">Item 2</a></li>
                                         </ul>
                                     </div>

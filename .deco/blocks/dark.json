@@ -1,0 +1,18 @@
+{
+  "buttonStyle": {
+    "--border-btn": "1px",
+    "--rounded-btn": "0.2rem",
+    "--btn-focus-scale": "0.9",
+    "--animation-btn": "0.25s"
+  },
+  "__resolveType": "site/sections/Theme/Theme.tsx",
+  "mainColors": {
+    "base-100": "#0D0D0D",
+    "secondary": "#8a8a8a",
+    "primary": "#FFFFFF"
+  },
+  "font": {
+    "family": "light",
+    "styleSheet": "light"
+  }
+}

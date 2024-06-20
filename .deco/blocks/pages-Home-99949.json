@@ -51,12 +51,30 @@
     {
       "__resolveType": "site/sections/CursosMaisProcurados.tsx",
       "titleSection": "Cursos mais procurados",
-      "subTitleSection": "Descubra o curso ideal para você"
+      "subTitleSection": "Descubra o curso ideal para você",
+      "image_1": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/251bbaef-3e3a-4276-97ab-3f0711c6089a",
+      "alt_1": "Pedagogia",
+      "cursoType_1": "Licenciatura",
+      "text_1": "Pedagogia",
+      "image_2": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/3c4aa93f-8167-449a-bd33-270220bae26e",
+      "alt_2": "Administração",
+      "cursoType_2": "Bacharelado",
+      "text_2": "Administração",
+      "image_3": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/5b194d18-eab7-468b-abac-8d61669c2df9",
+      "alt_3": "Ed. Física",
+      "cursoType_3": "Bacharelado",
+      "text_3": "Educação física | Bacharelado",
+      "image_4": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/2c87ec3b-62ba-497c-893b-e0d1555d883e",
+      "alt_4": "Enfermagem",
+      "cursoType_4": "Bacharelado",
+      "text_4": "Enfermagem"
     },
     {
       "__resolveType": "site/sections/UniversoDeOpcoes.tsx",
       "gridColsDesk": 2,
-      "gridColsMobile": 1
+      "gridColsMobile": 1,
+      "titleSection": "Um universo de opções para sua evolução",
+      "subTitleSection": "Vale o que custa e não pesa no bolso!"
     },
     {
       "__resolveType": "site/sections/LeuApp.tsx",
