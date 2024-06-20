@@ -49,10 +49,14 @@
       ]
     },
     {
-      "__resolveType": "site/sections/CursosMaisProcurados.tsx"
+      "__resolveType": "site/sections/CursosMaisProcurados.tsx",
+      "titleSection": "Cursos mais procurados",
+      "subTitleSection": "Descubra o curso ideal para você"
     },
     {
-      "__resolveType": "site/sections/UniversoDeOpcoes.tsx"
+      "__resolveType": "site/sections/UniversoDeOpcoes.tsx",
+      "gridColsDesk": 2,
+      "gridColsMobile": 1
     },
     {
       "__resolveType": "site/sections/LeuApp.tsx",
