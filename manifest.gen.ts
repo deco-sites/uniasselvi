@@ -2,8 +2,9 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $$$$$$$$$0 from "./actions/cepBlur.ts";
-import * as $$$$$$$$$1 from "./actions/cpfBlur.ts";
+import * as $$$$$$$$$1 from "./actions/cepBlur.ts";
+import * as $$$$$$$$$2 from "./actions/cpfBlur.ts";
+import * as $$$$$$$$$0 from "./actions/CreateSelectionExam.ts";
 import * as $$$$$$$$$$$0 from "./apps/api.ts";
 import * as $$$$$$$$$$$1 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$2 from "./apps/site.ts";
@@ -61,8 +62,9 @@ const manifest = {
     "site/sections/UniversoDeOpcoes.tsx": $$$$$$21,
   },
   "actions": {
-    "site/actions/cepBlur.ts": $$$$$$$$$0,
-    "site/actions/cpfBlur.ts": $$$$$$$$$1,
+    "site/actions/cepBlur.ts": $$$$$$$$$1,
+    "site/actions/cpfBlur.ts": $$$$$$$$$2,
+    "site/actions/CreateSelectionExam.ts": $$$$$$$$$0,
   },
   "apps": {
     "site/apps/api.ts": $$$$$$$$$$$0,
