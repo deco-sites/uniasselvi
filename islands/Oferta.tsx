@@ -136,6 +136,8 @@ const Oferta = ({ cursos }: OfertaProps) => {
 
                                             ofertas = {
                                                 curso: curso.ecur_nome,
+                                                codigo: curso.ecur_codi,
+                                                codigo_polo: polo.epol_codi,
                                                 valorBruto,
                                                 valorLiquido,
                                                 desconto,
@@ -201,7 +203,7 @@ const Oferta = ({ cursos }: OfertaProps) => {
                 <p class="text-[14px] font-base text-white my-4 px-5"><strong>{ ofertasToShow.value.cidade } - { ofertasToShow.value.estado }</strong></p>
                 <p class="text-[14px] font-base text-white my-4 px-5">{ ofertasToShow.value.telefone }</p>
                 <p class="text-[14px] font-base text-white my-4 px-5">{ ofertasToShow.value.endereco }, { ofertasToShow.value.numero } {ofertasToShow.value.complemento} - { ofertasToShow.value.bairro }</p>
-                <button onClick={() => { mostrarOfertas.value = true }} class="block w-full py-3 px-6 text-2xl font-bold text-center bg-[#ffdd00] color-[#3a3b39] uppercase border border-[#ffdd00] rounded-[6px]">Inscreva-se</button>
+                <button onClick={() => { window.location.href = `/etapa-selecao?ecur_codi=${ofertasToShow.value.codigo}&epol_codi=${ofertasToShow.value.codigo_polo}` }} class="block w-full py-3 px-6 text-2xl font-bold text-center bg-[#ffdd00] color-[#3a3b39] uppercase border border-[#ffdd00] rounded-[6px]">Inscreva-se</button>
                 <p class="text-[12px] font-base text-white my-4 px-5">{ofertasToShow.value.descricao}</p>
             </div>
         </div>

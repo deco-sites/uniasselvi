@@ -40,9 +40,58 @@ const Form = ({  }: FormProps) => {
     ano_encerramento: false
   });
 
-  const submit = (e: Event) => {
+  const submit = async (e: Event) => {
+    
     e.preventDefault();
-    formIsValid();
+      formIsValid();
+
+      const urlParams = new URLSearchParams(window.location.search);
+
+    // Exemplo de como pegar os parâmetros da query
+    const ecur_codi = urlParams.get('ecur_codi'); // Valor de param1
+      const epol_codi = urlParams.get('epol_codi'); // Valor de param2
+      
+      const dataToSend = {
+        person: {
+            origin: "1",
+            name: data.value.nome,
+            email: data.value.email,
+            document: data.value.cpf,
+            mobileNumber: data.value.telefone,
+            birthDate: data.value.data_nasc,
+            gender: data.value.sexo,
+            highSchoolFinishYear: data.value.ano_encerramento,
+            postalCode: data.value.cep,
+            address: data.value.endereco,
+            addressNumber: data.value.numero,
+            neighborhood: data.value.bairro,
+            addressComplement: data.value.complemento,
+            cityName: data.value.cidade,
+            cityState: data.value.estado,
+        },
+        company: 1,
+        branchCode: epol_codi,
+        modality: "2",
+        entranceType: "V",
+        mainCourse: ecur_codi,
+        allowWhatsAppContact: data.value.whatsapp,
+        highSchoolComplete: data.value.possui_medio,
+        placeOfRegistration: "2",
+        originServer: "CENTRAL-CAPTACAO",
+        userIp: '',
+      }
+
+    try {
+        const response = await invoke.site.actions.CreateSelectionExam({ dataToSend });
+        console.log(response); // Verifica a resposta da função invocada
+        if (response) {
+            window.location.href = '/obrigado'
+        }
+    } catch (error) {
+            console.error('Erro ao invocar CreateSelectionExam:', error);
+            // Trate o erro conforme necessário
+    }
+
   }
 
   const handleChange = (event: JSX.TargetedInputEvent<HTMLInputElement>, value: string) => {
@@ -122,38 +171,50 @@ const Form = ({  }: FormProps) => {
     }
   }
 
-  const formatCpf = (value: string) => {
-    const numericValue = value.replace(/\D/g, "").slice(0, 11);
-    const cpfMasked = numericValue.replace(
-      /(\d{3})(\d{3})(\d{3})(\d{2})/,
-      (_, p1, p2, p3, p4) => `${p1}.${p2}.${p3}-${p4}`
-    );
-    return cpfMasked 
+    const formatCpf = (value: string) => {
+      
+        if (value) {
+            const numericValue = value.replace(/\D/g, "").slice(0, 11);
+            const cpfMasked = numericValue.replace(
+                /(\d{3})(\d{3})(\d{3})(\d{2})/,
+                (_, p1, p2, p3, p4) => `${p1}.${p2}.${p3}-${p4}`
+            );
+            return cpfMasked
+        }    
   };
 
-  const formatDate = (value: string) => {
-    const numericValue = value.replace(/\D/g, "").slice(0, 8);
-    
-    // Apply date mask: DD/MM/YYYY
-    const dateMasked = numericValue.replace(
-      /(\d{2})(\d{2})(\d{4})/,
-      (_, p1, p2, p3) => `${p1}/${p2}/${p3}`
-    );
+    const formatDate = (value: string) => {
+      
+        if (value) {
+            
+            const numericValue = value.replace(/\D/g, "").slice(0, 8);
+            
+            // Apply date mask: DD/MM/YYYY
+            const dateMasked = numericValue.replace(
+              /(\d{2})(\d{2})(\d{4})/,
+              (_, p1, p2, p3) => `${p1}/${p2}/${p3}`
+            );
+        
+            return dateMasked;
 
-    return dateMasked;
+        }
+
   };
 
-  const formatCep = (value: string) => {
-    // Remove non-numeric characters
-    const numericValue = value.replace(/\D/g, "").slice(0, 8);
-    
-    // Apply CEP mask: XXXXX-XXX
-    const cepMasked = numericValue.replace(
-      /(\d{5})(\d{3})/,
-      (_, p1, p2) => `${p1}-${p2}`
-    );
-  
-    return cepMasked;
+    const formatCep = (value: string) => {
+      
+        if (value) {
+            // Remove non-numeric characters
+            const numericValue = value.replace(/\D/g, "").slice(0, 8);
+            
+            // Apply CEP mask: XXXXX-XXX
+            const cepMasked = numericValue.replace(
+                /(\d{5})(\d{3})/,
+                (_, p1, p2) => `${p1}-${p2}`
+            );
+        
+            return cepMasked;
+        }
   };
 
   const handleCepBlur = async () => {
@@ -164,11 +225,11 @@ const Form = ({  }: FormProps) => {
       cidade: response.cidade_nome,
       estado: response.uf,
     };
-
     data.value = {
       ...data.value,
       ...updates,
-    };
+      };
+      
   }
 
   const years = [];
@@ -507,7 +568,12 @@ const Form = ({  }: FormProps) => {
                     <label for="cpf" class="text-base font-bold block mb-3">
                         Ano de Conclusão do ensino medio
                     </label>  
-                    <select class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                    <select onChange={(e) => {
+                        data.value = {
+                            ...data.value,
+                                ano_encerramento : e.currentTarget.value
+                            };
+                    }} class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                         <option value="" selected title="Selecione o ano desejado">Selecione o ano desejado</option>
                         {years.map((year) => (
                             <option key={year} value={year} selected={year.toString() == data.value.ano_encerramento}>

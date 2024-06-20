@@ -90,5 +90,11 @@
     "path": "/etapa-selecao",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Obrigado-289288.json": {
+    "name": "Obrigado",
+    "path": "/obrigado",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "name": "Obrigado",
+  "path": "/obrigado",
+  "sections": [
+    {
+      "__resolveType": "Preview /sections/EtapaSelecao/HeaderSelecao.tsx"
+    },
+    {
+      "__resolveType": "site/sections/EtapaSelecao/TopBar.tsx",
+      "active_index": 3,
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/cc64d454-4538-4d38-b776-37e9d0c78ed7"
+    },
+    {
+      "__resolveType": "Preview /sections/EtapaSelecao/FooterSelecao.tsx"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
