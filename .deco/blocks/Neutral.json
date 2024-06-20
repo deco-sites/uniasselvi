@@ -29,11 +29,12 @@
     "__resolveType": "website/loaders/fonts/googleFonts.ts",
     "fonts": [
       {
-        "variations": [],
-        "family": "Albert Sans"
-      },
-      {
-        "variations": []
+        "variations": [
+          {
+            "weight": "400"
+          }
+        ],
+        "family": "Inter"
       }
     ]
   }

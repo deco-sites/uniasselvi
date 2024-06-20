@@ -63,11 +63,11 @@ const Oferta = ({ cursos }: OfertaProps) => {
                     <li class="step"><p class="text-xs text-white">Confira a melhor oferta</p></li>
                     <li class="step"><p class="text-xs text-white">Inscreva-se</p></li>
                 </ul>
-                <p class="text-4xl font-bold text-[#ffdd00] px-5">Seu caminho para o sucesso começa aqui</p>
+                <p class="text-4xl font-bold text-[#ffdd00] px-5 pt-5">Seu caminho para o sucesso começa aqui</p>
                 <p class="text-2xl font-base text-white my-4 px-5">Selecione o <strong>Estado</strong> a <strong>Cidade</strong> e a <strong>Unidade</strong> em que deseja iniciar sua jornada.</p>
-                <div class="grid grid-cols-2 gap-[15px] px-5 pb-5">
+                <div class="flex gap-[15px] px-5">
                     
-                    <div class="grid gap-[7px]">
+                    <div class="flex-1 grid gap-[7px]">
                         <label for="" class="text-xl text-white">Estado</label>
                         <select onChange={(e) => {
                             const sigla = e.currentTarget.value;
@@ -90,7 +90,7 @@ const Oferta = ({ cursos }: OfertaProps) => {
                         ))}
                         </select>
                     </div>
-                    <div class="grid gap-[7px]">
+                    <div class="flex-1 grid gap-[7px]">
                         <label for="" class="text-xl text-white">Cidade</label>
                         <select
                             class="bg-white border border-black rounded-md text-xl py-2 px-4"
@@ -114,7 +114,9 @@ const Oferta = ({ cursos }: OfertaProps) => {
                             ))}
                         </select>
                     </div>
-                    <div class="col-span-2 grid gap-[7px]">
+                </div>
+                <div class="flex flex-col gap-[15px] px-5 py-5">
+                    <div class=" flex-1 grid gap-[7px]">
                         <label for="" class="text-xl text-white">Unidade/Polo</label>
                         <select
                             class="bg-white border border-black rounded-md text-xl py-2 px-4"
@@ -162,8 +164,8 @@ const Oferta = ({ cursos }: OfertaProps) => {
                             ))}
                         </select>
                     </div>
-                    <div class="col-span-2">
-                        <button onClick={() => { mostrarOfertas.value = true }} class="block w-full py-3 px-6 text-2xl font-bold text-center text-[#ffdd00] uppercase border border-[#ffdd00] rounded-[6px]">Confira nossas ofertas</button>
+                    <div class="flex-1">
+                        <button disabled={ofertasToShow.value ? false : true} onClick={() => { mostrarOfertas.value = true }} class="block w-full py-3 px-6 text-2xl font-bold text-center text-[#ffdd00] uppercase border border-[#ffdd00] rounded-[6px]">Confira nossas ofertas</button>
                     </div>
 
                 </div>
@@ -186,7 +188,7 @@ const Oferta = ({ cursos }: OfertaProps) => {
                     <li class="step step-warning"><p class="text-xs text-white">Confira a melhor oferta</p></li>
                     <li class="step"><p class="text-xs text-white">Inscreva-se</p></li>
                 </ul>
-                <p class="text-4xl font-bold text-[#ffdd00] px-5">{ofertasToShow.value.curso}</p>
+                <p class="text-4xl font-bold text-[#ffdd00] px-5 pt-5">{ofertasToShow.value.curso}</p>
                 <p class="text-3xl font-base text-[#ffdd00] my-4 px-5">Bacharelado - EAD</p>
                 <p class="text-2xl font-base text-white my-4 px-5">Inscreva-se agora e <strong>garanta sua vaga</strong> e comece sua graduação o quanto antes.</p>
                 

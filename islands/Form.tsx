@@ -7,6 +7,8 @@ interface FormProps {
 
 const Form = ({  }: FormProps) => {
   const data = useSignal({
+    email: "",
+    telefone: "",
     cpf: "",
     nacionalidade: "",    
     nome: "",
@@ -25,6 +27,8 @@ const Form = ({  }: FormProps) => {
   });
 
   const errors = useSignal({
+    email: false,
+    telefone: false,
     cpf: false,
     nacionalidade: false,    
     nome: false,
@@ -244,6 +248,79 @@ const Form = ({  }: FormProps) => {
     <div>
         <style>{css}</style>
         <form onSubmit={submit}>
+
+            <div class="grid grid-cols-12 gap-[20px] my-[50px]">
+                <div class="col-span-12">
+                    <label for="cpf" class="text-base font-bold block">
+                        Nome Completo
+                        <span class="required">*</span>
+                    </label>  
+                    <input 
+                    type="text" 
+                    name="nome" 
+                    placeholder="Digite seu nome completo"
+                    value={data.value.nome} 
+                    onInput={(e) => handleChange(e, e.currentTarget.value)} 
+                    class="border p-2 rounded w-full" 
+                    />
+                    {errors.value.nome && <p class="text-red-500">nome é obrigatório</p>}
+                </div>
+                <div class="col-span-12">
+                    <label for="cpf" class="text-base font-bold block">
+                        Email
+                        <span class="required">*</span>
+                    </label>  
+                    <input 
+                    type="text" 
+                    name="email"
+                    placeholder="Digite seu email principal"
+                    value={data.value.email} 
+                    onInput={(e) => handleChange(e, e.currentTarget.value)} 
+                    class="border p-2 rounded w-full" 
+                    />
+                    {errors.value.email && <p class="text-red-500">email é obrigatório</p>}
+                </div>
+                <div class="col-span-6 ">
+                    <label for="cpf" class="text-base font-bold block">
+                        Telefone
+                        <span class="required">*</span>
+                    </label>  
+                    <input 
+                    type="text" 
+                    name="telefone" 
+                    placeholder="( )_____-____"
+                    value={data.value.telefone} 
+                    onInput={(e) => handleChange(e, e.currentTarget.value)} 
+                    class="border p-2 rounded w-full" 
+                    />
+                    {errors.value.telefone && <p class="text-red-500">telefone é obrigatório</p>}
+                </div>
+                <div class="col-span-6 p-3 border border-black rounded-lg">
+                    <div className="flex justify-between items-center gap-[15px]">
+                        <p class="text-xl font-bold">Podemos usar o WhatsApp para falar sobre sua inscrição e matrícula?</p>
+                        <img src="/whatsapp.png" width="35px" height="35px" alt="" />
+                    </div>
+                    <div className="flex items-center gap-[15px]">
+                        <input type="checkbox" name="whatsapp" id="whatsapp" />
+                        <label htmlFor="whatsapp">Autorizo o uso do WhatsApp no telefone informado</label>
+                    </div>
+                </div>
+                <div class="col-span-12 p-3 border border-black rounded-lg flex gap-[15px]">
+                    <input type="checkbox" name="politica" id="politica" />
+                    <label htmlFor="politica">Li e aceito a <a href="" class="underline color-blue">Política de Privacidade.</a> Autorizo a coleta e o tratamento de meus dados pessoais pela UNIASSELVI, seu grupo econômico, instituições de ensino e parceiros.</label>
+                </div>
+                <div class="col-span-5">
+                    <button class="w-full bg-[#f0f0f0] py-3 px-5 rounded-lg shadow-[0_6px_8px_0_rgba(73,73,73,.36)]">Voltar aos cursos</button>
+                </div>
+                <div class="col-span-7">
+                    <button class="w-full bg-[#ffdb1a] py-3 px-5 rounded-lg shadow-[0_6px_8px_0_rgba(73,73,73,.36)]">Ir para a próxima etapa</button>
+                </div>
+            </div>
+
+            
+
+
+
             <div class="grid grid-cols-12 gap-4">
                 <div class="col-span-12 md:col-span-4">
                     <label for="cpf" class="text-base font-bold block">

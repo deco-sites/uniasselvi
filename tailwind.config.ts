@@ -4,5 +4,12 @@ export default {
   plugins: [daisyui],
   daisyui: { themes: [], logs: false },
   content: ["./**/*.tsx"],
-  theme: { container: { center: true } },
+  theme: { 
+    extend: {
+      fontFamily: {
+        'sans': ['Neo Sans Std', 'system-ui']
+      }
+    },
+    container: { center: true }
+  },
 };
