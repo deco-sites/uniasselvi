@@ -3,7 +3,8 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "site/sections/Navbar.tsx"
+      "__resolveType": "site/sections/Navbar.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/a03fa62e-ec0b-485f-b73c-9b67405c8fc1"
     },
     {
       "__resolveType": "website/flags/multivariate/section.ts",

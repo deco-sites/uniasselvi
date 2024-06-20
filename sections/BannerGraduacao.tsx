@@ -20,7 +20,7 @@ interface Props {
   }: Props) {
     return (
         <section class="bg-[#fd0] hidden md:block">
-            <div class="container px-[1rem] pt-[64px] mt-[64px]">
+            <div class="container px-[1rem] pt-[64px]">
                 <div class="flex flex-col md:flex-row gap-5 py-10">
                     <div class="basis-1/2">
                         <h2 class="text-3xl text-black font-bold ">NÃO DEIXE NADA ATRAPALHAR<br />O SEU FUTURO</h2>
