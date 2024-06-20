@@ -6,10 +6,8 @@
       "__resolveType": "Preview /sections/EtapaSelecao/HeaderSelecao.tsx"
     },
     {
-      "__resolveType": "Preview /sections/EtapaSelecao/TopBar.tsx"
-    },
-    {
-      "__resolveType": "Preview site/sections/EtapaSelecao/Content.tsx"
+      "__resolveType": "site/sections/EtapaSelecao/TopBar.tsx",
+      "active_index": 1
     },
     {
       "__resolveType": "Preview /sections/EtapaSelecao/FooterSelecao.tsx"

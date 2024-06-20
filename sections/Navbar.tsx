@@ -1,3 +1,4 @@
+import { asset, Head } from "$fresh/runtime.ts";
 interface Props {
     // image?: ImageWidget;
     /**
