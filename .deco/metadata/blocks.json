@@ -90,5 +90,11 @@
     "path": "/etapa-selecao",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-EtapaSelecao%25202-160274.json": {
+    "name": "EtapaSelecao 2",
+    "path": "/etapa-selecao2",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
