@@ -25,12 +25,17 @@ export default defineApp(async (_req, ctx) => {
         {/* Web Manifest */}
         <link rel="manifest" href={asset("/site.webmanifest")} />
 
-        <link media="all" type="text/css" rel="stylesheet" href="https://portal.uniasselvi.com.br/public/fonts/fonts-neosans.css?v=20190705" />
-
         <style
           dangerouslySetInnerHTML={{
             __html: 
                 `@font-face {
+                  font-family: 'Neo Sans Std';
+                  font-style: normal;
+                  font-weight: 300;
+                  font-display: swap;
+                  src: url(${asset("/neosansstd-light.woff")}) format('woff');
+                }
+                @font-face {
                   font-family: 'Neo Sans Std';
                   font-style: normal;
                   font-weight: 400;
