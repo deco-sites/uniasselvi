@@ -1,6 +1,7 @@
 import { type Curso } from "site/apps/types.ts";
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
+import { useSignal } from "@preact/signals";
 
 interface Props {
     cursos: Curso[];
@@ -21,6 +22,10 @@ interface Props {
     text_2 = "Made with"
   }: Props) {
       
+      
+    const cursoSelecionado = useSignal<string>("");
+    const modalidadeSelecionada = useSignal<string>("");
+      
     return (
         <section class="bg-white pt-[64px] md:pt-0">
             <div class="container px-[1rem] py-10">
@@ -34,16 +39,32 @@ interface Props {
                     <div class="basis-full md:basis-8/12 flex flex-col md:flex-row gap-5 mt-10">
                         <div class="grid flex-1 gap-[7px]">
                             <label for="" class="text-xl text-black">Curso de interesse</label>
-                            <select name="" id="" class="bg-white border border-[#aaa] rounded-md text-xl py-2 px-4">
+                            <select
+                                onChange={(e) => {
+                                    cursoSelecionado.value = e.currentTarget.value;
+
+                                    if (cursoSelecionado.value && modalidadeSelecionada.value) {
+                                        window.location.href = `/curso?curso=${cursoSelecionado.value}`
+                                    }
+                                }}
+                                class="bg-white border border-[#aaa] rounded-md text-xl py-2 px-4">
                                 <option value="">- Selecione -</option>
                                 {cursos.map(curso => (
-                                    <option value="">{curso.ecur_nome}</option>
+                                    <option value={curso.ecur_nome}>{curso.ecur_nome}</option>
                                 ))}
                             </select>
                         </div>
                         <div class="grid flex-1 gap-[7px]">
                             <label for="" class="text-xl text-black">Modalidade</label>
-                            <select name="" id="" class="bg-white border border-[#aaa] rounded-md text-xl py-2 px-4">
+                            <select
+                                onChange={(e) => {
+                                    modalidadeSelecionada.value = e.currentTarget.value;
+
+                                    if (cursoSelecionado.value && modalidadeSelecionada.value) {
+                                        window.location.href = `/curso?curso=${cursoSelecionado.value}`
+                                    }
+                                }}
+                                class="bg-white border border-[#aaa] rounded-md text-xl py-2 px-4">
                                 <option value="">- Selecione -</option>
                                 <option value="ead">EAD</option>
                             </select>

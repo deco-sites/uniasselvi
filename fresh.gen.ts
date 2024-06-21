@@ -7,6 +7,7 @@ import * as $CpfInput from "./islands/CpfInput.tsx";
 import * as $Cursos from "./islands/Cursos.tsx";
 import * as $Form from "./islands/Form.tsx";
 import * as $Oferta from "./islands/Oferta.tsx";
+import * as $SelecioneOCurso from "./islands/SelecioneOCurso.tsx";
 import * as $TopBar from "./islands/TopBar.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
@@ -19,6 +20,7 @@ const manifest = {
     "./islands/Cursos.tsx": $Cursos,
     "./islands/Form.tsx": $Form,
     "./islands/Oferta.tsx": $Oferta,
+    "./islands/SelecioneOCurso.tsx": $SelecioneOCurso,
     "./islands/TopBar.tsx": $TopBar,
   },
   baseUrl: import.meta.url,
