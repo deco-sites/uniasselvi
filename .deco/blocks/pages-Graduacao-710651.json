@@ -3,7 +3,8 @@
   "path": "/graduacao",
   "sections": [
     {
-      "__resolveType": "site/sections/Navbar.tsx"
+      "__resolveType": "site/sections/Navbar.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/6f6d92e6-5440-430a-bcea-1cdb84c75572"
     },
     {
       "__resolveType": "site/sections/BannerGraduacao.tsx"
