@@ -53,9 +53,12 @@ const etapaForm = useSignal<number>(active_index)
   const submit = async (e: Event) => {
     
     e.preventDefault();
-      formIsValid();
 
-      const urlParams = new URLSearchParams(window.location.search);
+    if(!formIsValid()){
+        return;
+    }
+
+    const urlParams = new URLSearchParams(window.location.search);
 
     // Exemplo de como pegar os parâmetros da query
     const ecur_codi = urlParams.get('ecur_codi'); // Valor de param1
@@ -91,13 +94,28 @@ const etapaForm = useSignal<number>(active_index)
         userIp: '',
       }
 
-      console.log(dataToSend)
 
     try {
         const response = await invoke.site.actions.CreateSelectionExam({ dataToSend });
-        console.log(response); // Verifica a resposta da função invocada
-        if (response) {
+        const result = response.data.CreateSelectionExam;
+        if (result && result.studentId) {
             etapaForm.value = 3
+            if(data.value.cpf && data.value.data_nasc){
+                setTimeout(async ()=>{
+                    const token = await invoke.site.actions.getTokenAva({cpf: data.value.cpf, data_nasc:data.value.data_nasc});
+
+                    const domain = 'uniasselvi.com.br'
+                    if(token){
+                        document.cookie = `uniToken=${token}`;
+                        document.cookie = `path=/`;
+                        document.cookie = `domain=${domain}`;
+                        document.cookie = `secure=true`;
+                        document.cookie = `sameSite=None`;
+                        window.location.href = `https://ava2.${domain}`
+                    }
+                }, 5000)
+            }
+
         }
     } catch (error) {
             console.error('Erro ao invocar CreateSelectionExam:', error);
@@ -147,8 +165,13 @@ const etapaForm = useSignal<number>(active_index)
             }
         }
     })
-
-
+    let is_valid=true;
+    Object.values(errors.value).forEach(function(value){
+        if(value == true){
+            is_valid = false;
+        }
+    })
+    return is_valid;
     }
   
 
@@ -156,7 +179,6 @@ const etapaForm = useSignal<number>(active_index)
     const response = await invoke.site.actions.cpfBlur({ cpf: data.value.cpf });
     const updates = {
       nacionalidade: response.pessoa.pess_naci_desc ? response.pessoa.pess_naci_desc : data.value.nacionalidade,
-      nome: response.pessoa.pess_nome ? response.pessoa.pess_nome : data.value.nome,
       data_nasc: response.pessoa.pess_dnas ? response.pessoa.pess_dnas : data.value.data_nasc,
       sexo: response.pessoa.pess_sexo ? response.pessoa.pess_sexo : data.value.sexo,
       ano_encerramento: response.pessoa.pess_ance ? response.pessoa.pess_ance : data.value.ano_encerramento,
@@ -164,7 +186,6 @@ const etapaForm = useSignal<number>(active_index)
       numero: response.pessoa.pess_nume ? response.pessoa.pess_nume : data.value.numero,
       complemento: response.pessoa.pess_comp ? response.pessoa.pess_comp : data.value.complemento,
       possui_medio: response.pessoa.pess_ance ? 'S' : 'N'
-    //   endereco: response.pessoa.pess_ende,
     };
     
     data.value = {
@@ -182,7 +203,6 @@ const etapaForm = useSignal<number>(active_index)
         }
       }
       
-      console.log(data.value)
   }
 
     const formatCpf = (value: string) => {
@@ -458,6 +478,7 @@ const etapaForm = useSignal<number>(active_index)
                                     value={data.value.telefone} 
                                     onInput={(e) => handleChange(e, e.currentTarget.value)} 
                                     class="border p-2 rounded w-full" 
+                                    maxLength={11}
                                     />
                                     {errors.value.telefone && <p class="text-red-500">telefone é obrigatório</p>}
                                 </div>

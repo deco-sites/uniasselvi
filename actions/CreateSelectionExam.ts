@@ -14,22 +14,52 @@ export default async function CreateSelectionExam(props: Props, _req: Request, _
     const headers = {
         'Authorization': `Bearer ${token}`,
         'Content-Type': 'application/json',
-        'vitru-espe': '100001398',
+        'vitru-espe': '100005011',
         'Cookie': 'dtCookie=v_4_srv_10_sn_25C85AFDBBE78716C9169AAC5EB2182E_perc_100000_ol_0_mul_1_app-3Ade1e3bda8a67c4b3_0_app-3Aea7c4b59f27d43eb_0'
     };
 
+    const query = `
+    mutation gerarContrato {
+        CreateSelectionExam(
+        person: {
+            origin: "${dataToSend.person.origin}",
+            name: "${dataToSend.person.name}",
+            email: "${dataToSend.person.email}",
+            document: "${dataToSend.person.document}",
+            mobileNumber: "${dataToSend.person.mobileNumber}",
+            birthDate: "${formatDate(dataToSend.person.birthDate)}",
+            gender: "${dataToSend.person.gender}",
+            highSchoolFinishYear: ${dataToSend.person.highSchoolFinishYear},
+            postalCode: "${dataToSend.person.postalCode}",
+            address: "${dataToSend.person.address}",
+            addressNumber: "${dataToSend.person.addressNumber}",
+            neighborhood: "${dataToSend.person.neighborhood}",
+            addressComplement: "${dataToSend.person.addressComplement}",
+            cityName: "${dataToSend.person.cityName}",
+            cityState: "${dataToSend.person.cityState}"
+        },
+        company: ${dataToSend.company},
+        branchCode: "${dataToSend.branchCode}",
+        modality: "${dataToSend.modality}",
+        entranceType: "${dataToSend.entranceType}",
+        mainCourse: ${dataToSend.mainCourse},
+        allowWhatsAppContact: "${dataToSend.allowWhatsAppContact}",
+        highSchoolComplete: "${dataToSend.highSchoolComplete}",
+        placeOfRegistration: "${dataToSend.placeOfRegistration}",
+        originServer: "${dataToSend.originServer}",
+        userIp: "${dataToSend.userIp}"
+        ) {
+        enrollmentId,
+        studentId,
+        personId,
+        success
+        }
+    }
+    `;
     const requestBody = {
-        query: `mutation gerarContrato {
-            CreateSelectionExam(${JSON.stringify(dataToSend)}) {
-                enrollmentId,
-                studentId,
-                personId,
-                success
-            }
-        }`,
+        query: query,
         operationName: "gerarContrato"
     };
-
     try {
         const response = await fetch(url, {
             method: "POST",
@@ -39,9 +69,14 @@ export default async function CreateSelectionExam(props: Props, _req: Request, _
 
         const responseData = await response.json();
 
-        return responseData; // Retorna dados conforme a interface PropsExam
+        return responseData;
     } catch (error) {
         console.error('Erro ao enviar requisição:', error);
-        throw error; // Rejeita a promessa com o erro
+        throw error;
     }
 }
+
+function formatDate(dateStr: string): string {
+    const [day, month, year] = dateStr.split('/');
+    return `${year}-${month}-${day}`;
+  }

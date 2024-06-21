@@ -5,6 +5,7 @@
 import * as $$$$$$$$$1 from "./actions/cepBlur.ts";
 import * as $$$$$$$$$2 from "./actions/cpfBlur.ts";
 import * as $$$$$$$$$0 from "./actions/CreateSelectionExam.ts";
+import * as $$$$$$$$$3 from "./actions/getTokenAva.ts";
 import * as $$$$$$$$$$$0 from "./apps/api.ts";
 import * as $$$$$$$$$$$1 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$2 from "./apps/site.ts";
@@ -65,6 +66,7 @@ const manifest = {
     "site/actions/cepBlur.ts": $$$$$$$$$1,
     "site/actions/cpfBlur.ts": $$$$$$$$$2,
     "site/actions/CreateSelectionExam.ts": $$$$$$$$$0,
+    "site/actions/getTokenAva.ts": $$$$$$$$$3,
   },
   "apps": {
     "site/apps/api.ts": $$$$$$$$$$$0,
