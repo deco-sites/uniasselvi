@@ -9,7 +9,7 @@
     {
       "__resolveType": "site/sections/HeadCurso.tsx",
       "cursos": {
-        "__resolveType": "Preview site/loaders/cursos.ts"
+        "__resolveType": "site/loaders/cursos.ts"
       },
       "curso": "Administração",
       "tipo_curso": "Licenciatura - EAD",

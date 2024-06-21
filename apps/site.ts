@@ -6,6 +6,10 @@ import { API } from "site/apps/api.ts";
 
 type WebsiteApp = ReturnType<typeof website>;
 
+export const api = createHttpClient<API>({
+  base: "https://www.uniasselvi.com.br",
+});
+
 /**
  * @title Site
  * @description Start your site from a template or from scratch.
@@ -15,9 +19,6 @@ type WebsiteApp = ReturnType<typeof website>;
 export default function Site(
   state: Props,
 ) {
-  const api = createHttpClient<API>({
-    base: "https://www.uniasselvi.com.br",
-  });
 
   return {
     state: {

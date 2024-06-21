@@ -2,7 +2,7 @@
 import { type Curso } from "site/apps/types.ts";
 import { useSignal } from "@preact/signals";
 
-interface OfertaProps {
+export interface Props {
     cursos: Curso[];
 }
 
@@ -41,8 +41,7 @@ const estadosDoBrasil: Estado[] = [
     { nome: 'Tocantins', sigla: 'TO' },
 ];
 
-const Oferta = ({ cursos }: OfertaProps) => {
-    
+const Oferta = ({ cursos }: Props) => {
     
     const cidadesToShow = useSignal<string[]>([]);
     const polosToShow = useSignal<string[]>([]);

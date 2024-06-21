@@ -66,6 +66,8 @@ export default function HeadCurso({
     text_10 = "Made with",
 }: Props) {
 
+    console.log(cursos.length)
+
     return (
         <section class="bg-[#e6e7e6]">
             <div class="container px-[1rem] pt-[64px] pb-[50px]">
