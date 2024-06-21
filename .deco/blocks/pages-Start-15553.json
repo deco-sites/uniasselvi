@@ -12,7 +12,7 @@
         "__resolveType": "site/loaders/cursos.ts"
       },
       "curso": "Administração",
-      "tipo_curso": "Licenciatura - EAD",
+      "tipo_curso": "Bacharelado - EAD",
       "semestre": "8 semestres",
       "text_4": "<p><strong>Estudo Garantido:</strong>&nbsp;caso você perca o emprego no início do curso, as mensalidades do primeiro semestre serão por conta da UNIASSELVI.</p>",
       "text_5": "<p><strong>EAD semipresencial de verdade,&nbsp;</strong>com tutor exclusivo por turma para coordenar atividades e tirar dúvidas no polo ou virtualmente<strong>.</strong></p>",
@@ -29,7 +29,8 @@
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/b0e6327e-2c02-482a-9cb2-717fce3db5e4"
     },
     {
-      "__resolveType": "site/sections/GradeCurricular.tsx"
+      "__resolveType": "site/sections/GradeCurricular.tsx",
+      "text_1": "<p><span style=\"color: rgb(29, 29, 27)\">A graduação em Administração possibilita a atuação em empresas públicas e privadas, no gerenciamento de processos que vão desde o planejamento até a operação dos negócios. Além de liderar e motivar equipes, o administrador é um profissional que sabe identificar oportunidades e promover ações estratégicas para tornar a organização em que atua mais rentável e eficiente. Ao cursar administração o profissional adquire requisitos para atuar em qualquer empresa, seja de pequeno, médio ou grande porte, ou até mesmo administrar seu próprio negócio.</span></p>"
     },
     {
       "__resolveType": "Footer"
