@@ -7,7 +7,7 @@
       {
         "value": [
           {
-            "__resolveType": "site/sections/Navbar.tsx"
+            "__resolveType": "navbar-1"
           },
           {
             "__resolveType": "site/sections/HeadCurso.tsx",

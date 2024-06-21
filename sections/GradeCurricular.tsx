@@ -18,8 +18,8 @@ function GradeCurricular({
     return (
         <section class="bg-white py-[50px] relative">
             <div class="container px-[1rem]">
-                <div class="flex gap-[24px]">
-                    <div class="basis-full md:basis-1/2">
+                <div class="flex flex-col lg:flex-row gap-[24px]">
+                    <div class="basis-full lg:basis-1/2">
                         <div class="bg-[#ebebeb] rounded-[3px] shadow-[0_3px_10px_rgba(65,65,65,.25)]">
                             <div class="flex">
                                 <div class="flex-1 text-center py-3 px-2">
@@ -80,6 +80,8 @@ function GradeCurricular({
                             </div>
                         </div>
                     </div>
+                
+                    <div class="basis-full lg:basis-1/2"></div>
                 </div>
             </div>
         </section>

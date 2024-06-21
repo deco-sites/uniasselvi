@@ -56,7 +56,7 @@ const Oferta = ({ cursos }: OfertaProps) => {
 
             <script src="/cardScript.js"></script>
 
-            <div id="card" class="bg-[#3a3b39] shadow-[0px_4px_4px_0px_rgba(0,_0,_0,_0.25)] rounded-[16px] z-10">
+            <div id="card" class="bg-[#3a3b39] shadow-[0px_4px_4px_0px_rgba(0,_0,_0,_0.25)] rounded-[16px] z-10 md:max-w-[347px] lg:max-w-[457px] xl:max-w-[507px] 2xl:max-w-[572px]">
                 <ul class="steps bg-[#30312f] w-full rounded-t-[16px] py-5 px-10">
                     <li class="step step-warning"><p class="text-xs text-white">Selecione o curso</p></li>
                     <li class="step step-warning"><p class="text-xs text-white">Selecione sua localidade</p></li>
@@ -65,7 +65,7 @@ const Oferta = ({ cursos }: OfertaProps) => {
                 </ul>
                 <p class="text-4xl font-bold text-[#ffdd00] px-5 pt-5">Seu caminho para o sucesso começa aqui</p>
                 <p class="text-2xl font-base text-white my-4 px-5">Selecione o <strong>Estado</strong> a <strong>Cidade</strong> e a <strong>Unidade</strong> em que deseja iniciar sua jornada.</p>
-                <div class="flex gap-[15px] px-5">
+                <div class="flex flex-col lg:flex-row gap-[15px] px-5">
                     
                     <div class="flex-1 grid gap-[7px]">
                         <label for="" class="text-xl text-white">Estado</label>

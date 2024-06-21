@@ -104,5 +104,9 @@
   "/.deco/blocks/dark.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Theme/Theme.tsx"
+  },
+  "/.deco/blocks/navbar-1.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Navbar.tsx"
   }
 }

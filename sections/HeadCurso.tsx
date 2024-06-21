@@ -102,8 +102,7 @@ export default function HeadCurso({
                                     </g>
                                 </svg>
                             </div>
-                            {/* <p class="text-2xl text-black font-semibold">{text_4}</p> */}
-                            <div class="text-2xl text-black font-semibold" dangerouslySetInnerHTML={{
+                            <div class="text-2xl text-black font-base" dangerouslySetInnerHTML={{
                                 __html: text_4,
                             }}></div>
                         </div>
@@ -118,8 +117,7 @@ export default function HeadCurso({
                                     </g>
                                 </svg>
                             </div>
-                            {/* <p class="text-2xl text-black font-semibold">{text_5}</p> */}
-                            <div class="text-2xl text-black font-semibold" dangerouslySetInnerHTML={{
+                            <div class="text-2xl text-black font-base" dangerouslySetInnerHTML={{
                                 __html: text_5,
                             }}></div>
                         </div>
@@ -134,8 +132,7 @@ export default function HeadCurso({
                                     </g>
                                 </svg>
                             </div>
-                            {/* <p class="text-2xl text-black font-semibold">{text_6}</p> */}
-                            <div class="text-2xl text-black font-semibold" dangerouslySetInnerHTML={{
+                            <div class="text-2xl text-black font-base" dangerouslySetInnerHTML={{
                                 __html: text_6,
                             }}></div>
                         </div>
@@ -150,8 +147,7 @@ export default function HeadCurso({
                                     </g>
                                 </svg>
                             </div>
-                            {/* <p class="text-2xl text-black font-semibold">{text_7}</p> */}
-                            <div class="text-2xl text-black font-semibold" dangerouslySetInnerHTML={{
+                            <div class="text-2xl text-black font-base" dangerouslySetInnerHTML={{
                                 __html: text_7,
                             }}></div>
                         </div>
@@ -166,8 +162,7 @@ export default function HeadCurso({
                                     </g>
                                 </svg>
                             </div>
-                            {/* <p class="text-2xl text-black font-semibold">{text_8}</p> */}
-                            <div class="text-2xl text-black font-semibold" dangerouslySetInnerHTML={{
+                            <div class="text-2xl text-black font-base" dangerouslySetInnerHTML={{
                                 __html: text_8,
                             }}></div>
                         </div>
@@ -182,8 +177,7 @@ export default function HeadCurso({
                                     </g>
                                 </svg>
                             </div>
-                            {/* <p class="text-2xl text-black font-semibold">{text_9}</p> */}
-                            <div class="text-2xl text-black font-semibold" dangerouslySetInnerHTML={{
+                            <div class="text-2xl text-black font-base" dangerouslySetInnerHTML={{
                                 __html: text_9,
                             }}></div>
                         </div>
@@ -198,8 +192,7 @@ export default function HeadCurso({
                                     </g>
                                 </svg>
                             </div>
-                            {/* <p class="text-2xl text-black font-semibold">{text_10}</p> */}
-                            <div class="text-2xl text-black font-semibold" dangerouslySetInnerHTML={{
+                            <div class="text-2xl text-black font-base" dangerouslySetInnerHTML={{
                                 __html: text_10,
                             }}></div>
                         </div>

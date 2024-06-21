@@ -1,6 +1,9 @@
 import { asset, Head } from "$fresh/runtime.ts";
+import { ImageWidget } from "apps/admin/widgets.ts";
+import Image from "apps/website/components/Image.tsx";
+
 interface Props {
-    // image?: ImageWidget;
+    image?: ImageWidget;
     /**
    * @format rich-text
    * @description The description of name.
@@ -11,8 +14,7 @@ interface Props {
   }
 
 function Navbar({
-    // image =
-    // "",
+    image ="",
     text_1 = "Made with",
     text_2 = "Made with",
   }: Props) {
@@ -29,7 +31,16 @@ function Navbar({
                             </label>
                         </div> 
                         <div class="flex-1 px-2 mx-2">
-                            <img src="/logo-horizontal_desk.png" width="130px" alt="" />
+                            {/* <img src="/logo-horizontal_desk.png" width="130px" alt="" /> */}
+                            {image && (
+                                <Image
+                                    width={130}
+                                    src={image || ""}
+                                    // alt={alt || ""}
+                                    // height={height || 54}
+                                    // width={width || 220}
+                                />
+                            )}
                         </div>
                         <div class="flex-none hidden lg:block">
                             <ul class="menu menu-horizontal p-0">
