@@ -73,7 +73,6 @@ const etapaForm = useSignal<number>(active_index)
             mobileNumber: data.value.telefone,
             birthDate: data.value.data_nasc,
             gender: data.value.sexo,
-            highSchoolFinishYear: data.value.ano_encerramento,
             postalCode: data.value.cep,
             address: data.value.endereco,
             addressNumber: data.value.numero,
@@ -81,6 +80,7 @@ const etapaForm = useSignal<number>(active_index)
             addressComplement: data.value.complemento,
             cityName: data.value.cidade,
             cityState: data.value.estado,
+            highSchoolFinishYear: data.value.ano_encerramento
         },
         company: 1,
         branchCode: epol_codi,
@@ -161,6 +161,11 @@ const etapaForm = useSignal<number>(active_index)
             }
         }
     })
+
+    if(data.value.possui_medio == 'N'){
+        errors.value.ano_encerramento = false;
+    }
+
     let is_valid=true;
     Object.values(errors.value).forEach(function(value){
         if(value == true){

@@ -18,6 +18,8 @@ export default async function CreateSelectionExam(props: Props, _req: Request, _
         'Cookie': 'dtCookie=v_4_srv_10_sn_25C85AFDBBE78716C9169AAC5EB2182E_perc_100000_ol_0_mul_1_app-3Ade1e3bda8a67c4b3_0_app-3Aea7c4b59f27d43eb_0'
     };
 
+    const highSchoolFinishYear = dataToSend.person.highSchoolComplete == 'S' ? `highSchoolFinishYear: ${dataToSend.person.highSchoolFinishYear},` : '';
+
     const query = `
     mutation gerarContrato {
         CreateSelectionExam(
@@ -29,7 +31,7 @@ export default async function CreateSelectionExam(props: Props, _req: Request, _
             mobileNumber: "${dataToSend.person.mobileNumber}",
             birthDate: "${formatDate(dataToSend.person.birthDate)}",
             gender: "${dataToSend.person.gender}",
-            highSchoolFinishYear: ${dataToSend.person.highSchoolFinishYear},
+            ${highSchoolFinishYear}
             postalCode: "${dataToSend.person.postalCode}",
             address: "${dataToSend.person.address}",
             addressNumber: "${dataToSend.person.addressNumber}",
