@@ -17,6 +17,14 @@ async function fetchSemestre() {
   return data;
 }
 
+fetchSemestre()
+  .then(() => {
+    console.log("Pre-fetch ran");
+  })
+  .catch((e) => {
+    console.error("Pre-fetch failed", e);
+  });
+
 export default async function cursos(
   _props: null,
   _req: Request,
