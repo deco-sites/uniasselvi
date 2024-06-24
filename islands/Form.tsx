@@ -589,7 +589,7 @@ const etapaForm = useSignal<number>(active_index)
                                 type="text" 
                                 name="data_nasc" 
                                 value={formatDate(data.value.data_nasc)} 
-                                onInput={(e) => handleChange(e, e.currentTarget.value)} 
+                                onInput={(e) => handleChange(e, formatDate(e.currentTarget.value) as string)} 
                                 class="border p-2 rounded w-full"
                                 placeholder="__/__/____"
                                 maxLength={10}
