@@ -32,7 +32,7 @@ export default function SelecioneOCurso({
     const modalidadeSelecionada = useSignal<string>("");
 
     return (
-        <section class="bg-white pt-[64px] md:pt-0">
+        <section class="bg-white pt-16 md:pt-0">
             <div class="container px-[1rem] py-10">
                 <div class="flex gap-2">
                     <div class="">
