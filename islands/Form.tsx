@@ -108,7 +108,7 @@ const etapaForm = useSignal<number>(active_index)
                     if(token){
                         document.cookie = `uniToken=${token}`;
                         document.cookie = `path=/`;
-                        document.cookie = `domain=${domain}`;
+                        document.cookie = `domain=.${domain}`;
                         document.cookie = `secure=true`;
                         document.cookie = `sameSite=None`;
                         window.location.href = `https://ava2.${domain}`
