@@ -106,11 +106,7 @@ const etapaForm = useSignal<number>(active_index)
 
                     const domain = 'uniasselvi.com.br'
                     if(token){
-                        document.cookie = `uniToken=${token}`;
-                        document.cookie = `path=/`;
-                        document.cookie = `domain=.${domain}`;
-                        document.cookie = `secure=true`;
-                        document.cookie = `sameSite=None`;
+                        document.cookie = `uniToken=${token}; path=/; domain=.${domain}; secure=true; sameSite=None`;
                         window.location.href = `https://ava2.${domain}`
                     }
                 }, 5000)
