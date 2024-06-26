@@ -24,6 +24,8 @@ interface Props {
     alt_4?: string;
     cursoType_4?: string;
     text_4?: string;
+
+    link?: string;
   }
   
   function CursosMaisProcurados({
@@ -53,11 +55,13 @@ interface Props {
     image_4 =
     "",
     alt_4 = "",
+
+    link = ""
   }: Props) {
     return (
         <section class="bg-white pt-[64px]">
             <div class="container px-[1rem] py-8">
-                <h2 class="text-3xl font-bold text-black mb-4">{titleSection}</h2>
+                <h2 class="text-xl md:text-3xl font-bold text-black mb-4">{titleSection}</h2>
                 <p class="text-md font-base text-black mb-8">{subTitleSection}</p>
                 <div class="flex justify-between items-center mb-8 gap-4">
                     <div class="flex gap-4 overflow-auto">
@@ -65,10 +69,10 @@ interface Props {
                         <p class="border border-[#00a59a] py-1 px-4 rounded-full text-[#00a59a] font-bold whitespace-nowrap">Pós-Graduação</p>
                         <p class="border border-[#00a59a] py-1 px-4 rounded-full text-[#00a59a] font-bold whitespace-nowrap">Técnico/Profissionalizantes</p>
                     </div>
-                    <div class="flex items-center gap-3">
+                    <a href={link} class="hidden md:flex items-center gap-3">
                         <p class="text-lg text-[#00a59a] font-bold whitespace-nowrap">Ver mais cursos</p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512"><path fill="#00a59a" d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"/></svg>
-                    </div>
+                    </a>
                 </div>
 
                 {/* <!-- Swiper --> */}

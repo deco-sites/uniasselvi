@@ -14,7 +14,7 @@ interface Props {
     return (
         <section class="bg-white">
             <div class="container px-[1rem] py-10">
-                <h2 class="text-3xl font-bold text-black mb-6">Fique por dentro das novidades</h2>
+                <h2 class="text-xl md:text-3xl font-bold text-black mb-6">Fique por dentro das novidades</h2>
                 <div class="grid md:grid-cols-2 lg:grid-cols-4">
                     <a href="" class="relative block bg-[#F4F4F4] overflow-hidden shadow-[0px_2px_2px_0px_rgba(0,_0,_0,_0.19)]">
                         <p class="absolute z-10 top-[10px] left-[10px] py-1 px-4 rounded-full bg-[#FCAF17] text-white">Notícia</p>
