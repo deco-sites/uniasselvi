@@ -1,5 +1,4 @@
 import { AppContext } from "site/apps/site.ts";
-import { fetchToCurl } from "jsr:@viktor/fetch-to-curl";
 interface Props {
   dataToSend: object; // Supondo que dataToSend é o objeto que você deseja enviar na requisição
 }
@@ -70,12 +69,6 @@ export default async function CreateSelectionExam(
     operationName: "gerarContrato",
   };
   try {
-    const curl = fetchToCurl(url, {
-      method: "POST",
-      headers: headers,
-      body: JSON.stringify(requestBody),
-    });
-    console.log(curl);
     const response = await fetch(url, {
       method: "POST",
       headers: headers,
