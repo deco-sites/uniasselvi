@@ -38,7 +38,7 @@ interface Props {
                     {/* <div class="text-4xl text-white font-semibold mb-10" dangerouslySetInnerHTML={{
                         __html: text_1,
                         }}></div> */}
-                    <div class="text-4xl text-white font-semibold mb-10" dangerouslySetInnerHTML={{
+                    <div class="text-xl md:text-4xl text-white font-base mb-10" dangerouslySetInnerHTML={{
                         __html: text_1,
                     }}></div>
                     {/* <p class="text-white text-lg">O curso tecnólogo a distância de Marketing - EAD visa formar profissionais capacitados para definir o diagnóstico organizacional de uma instituição, identificando os impactos da cultura e do cenário empresarial com amplitude de visão econômica do mercado a fim de traçar um planejamento estratégico. O curso tecnólogo EAD em Marketing fornece ferramentas necessárias para que o profissional defina planos de posicionamento de produtos/serviços, bem como atue no processo produtivo e no fluxograma de atividades organizacionais, definindo as práticas mais eficazes para a eficiência na gestão de processos. Entre os diferenciais do curso está a flexibilidade oferecida pela modalidade a distância. No curso EAD, o aluno poderá contar com estudos online e encontros presenciais uma vez por semana. Além disso, o curso possui professores e tutores capacitados e matriz curricular atualizada.</p> */}

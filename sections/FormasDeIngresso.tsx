@@ -28,7 +28,7 @@ interface Props {
                         </div>
                         <div class="collapse rounded-none collapse-arrow mb-2">
                             <input type="radio" class="group" name="my-accordion-1" /> 
-                            <div class="collapse-title group-check:checked:text-[#00A6A5] bg-[#F4F4F4] text-black text-xl font-bold">
+                            <div class="collapse-title group-check:checked:text-[#00A6A5] bg-[#F4F4F4] text-black text-lg md:text-xl font-bold">
                                 Vestibular
                             </div>
                             <div class="collapse-content p-0">
@@ -40,7 +40,7 @@ interface Props {
                         </div>
                         <div class="collapse rounded-none collapse-arrow mb-2">
                             <input type="radio" class="group" name="my-accordion-1" /> 
-                            <div class="collapse-title group-check:checked:text-[#00A6A5] bg-[#F4F4F4] text-black text-xl font-bold">
+                            <div class="collapse-title group-check:checked:text-[#00A6A5] bg-[#F4F4F4] text-black text-lg md:text-xl font-bold">
                                 ENEM
                             </div>
                             <div class="collapse-content p-0">
@@ -52,7 +52,7 @@ interface Props {
                         </div>
                         <div class="collapse rounded-none collapse-arrow mb-2">
                             <input type="radio" class="group" name="my-accordion-1" /> 
-                            <div class="collapse-title group-check:checked:text-[#00A6A5] bg-[#F4F4F4] text-black text-xl font-bold">
+                            <div class="collapse-title group-check:checked:text-[#00A6A5] bg-[#F4F4F4] text-black text-lg md:text-xl font-bold">
                                 ENCCEJA
                             </div>
                             <div class="collapse-content p-0">
@@ -64,7 +64,7 @@ interface Props {
                         </div>
                         <div class="collapse rounded-none collapse-arrow mb-2">
                             <input type="radio" class="group" name="my-accordion-1" /> 
-                            <div class="collapse-title group-check:checked:text-[#00A6A5] bg-[#F4F4F4] text-black text-xl font-bold">
+                            <div class="collapse-title group-check:checked:text-[#00A6A5] bg-[#F4F4F4] text-black text-lg md:text-xl font-bold">
                                 2° Graduação
                             </div>
                             <div class="collapse-content p-0">
@@ -76,7 +76,7 @@ interface Props {
                         </div>
                         <div class="collapse rounded-none collapse-arrow mb-2">
                             <input type="radio" class="group" name="my-accordion-1" /> 
-                            <div class="collapse-title group-check:checked:text-[#00A6A5] bg-[#F4F4F4] text-black text-xl font-bold">
+                            <div class="collapse-title group-check:checked:text-[#00A6A5] bg-[#F4F4F4] text-black text-lg md:text-xl font-bold">
                                 Transferência Graduação
                             </div>
                             <div class="collapse-content p-0">
@@ -96,7 +96,7 @@ interface Props {
                         </div>
                         <div class="collapse rounded-none collapse-arrow mb-2">
                             <input type="radio" class="group" name="my-accordion-1" /> 
-                            <div class="collapse-title group-check:checked:text-[#00A6A5] bg-[#F4F4F4] text-black text-xl font-bold">
+                            <div class="collapse-title group-check:checked:text-[#00A6A5] bg-[#F4F4F4] text-black text-lg md:text-xl font-bold">
                                 Histórico
                             </div>
                             <div class="collapse-content p-0">
@@ -108,7 +108,7 @@ interface Props {
                         </div>
                         <div class="collapse rounded-none collapse-arrow mb-2">
                             <input type="radio" class="group" name="my-accordion-1" /> 
-                            <div class="collapse-title group-check:checked:text-[#00A6A5] bg-[#F4F4F4] text-black text-xl font-bold">
+                            <div class="collapse-title group-check:checked:text-[#00A6A5] bg-[#F4F4F4] text-black text-lg md:text-xl font-bold">
                                 2º Curso Técnico ou Profissionalizante
                             </div>
                             <div class="collapse-content p-0">
@@ -120,7 +120,7 @@ interface Props {
                         </div>
                         <div class="collapse rounded-none collapse-arrow mb-2">
                             <input type="radio" class="group" name="my-accordion-1" /> 
-                            <div class="collapse-title group-check:checked:text-[#00A6A5] bg-[#F4F4F4] text-black text-xl font-bold">
+                            <div class="collapse-title group-check:checked:text-[#00A6A5] bg-[#F4F4F4] text-black text-lg md:text-xl font-bold">
                                 Transferência Técnico
                             </div>
                             <div class="collapse-content p-0">

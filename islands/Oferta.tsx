@@ -96,7 +96,7 @@ const Oferta = ({ cursos }: Props) => {
           Selecione o <strong>Estado</strong> a <strong>Cidade</strong> e a{" "}
           <strong>Unidade</strong> em que deseja iniciar sua jornada.
         </p>
-        <div class="flex gap-[15px] px-5">
+        <div class="flex flex-col md:flex-row gap-[15px] px-5">
           <div class="flex-1 grid gap-[7px]">
             <label for="" class="text-xl text-white">Estado</label>
             <select

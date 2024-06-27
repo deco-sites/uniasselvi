@@ -193,13 +193,13 @@ function Footer({
             <div class="container mx-0 md:mx-auto w-full md:w-auto px-0 md:px-[1rem]">
                 <div class="flex flex-wrap md:gap-[15px]">
                     <div class="flex-[1_1_auto] w-full md:w-auto md:max-w-[260px]">
-                        <div class="collapse border-t border-[#000000a1] md:border-0 rounded-none">
+                        <div class="collapse border-t border-[#000000a1] md:border-0 rounded-none py-3">
                             <input type="checkbox" class="md:hidden peer min-h-fit" />
-                            <div class="collapse-title px-3 min-h-fit py-3 md:py-0 text-2xl font-bold p-0">
+                            <div class="collapse-title px-3 min-h-fit md:py-0 text-xl md:text-2xl font-bold p-0">
                                 Institucional
                             </div>
                             <div class="collapse-content">
-                                <ul class="px-3 md:px-0">
+                                <ul class="px-3 md:px-0 pt-3 md:pt-0">
                                     <li><a href="" class="text-md font-base py-2 px-3 md:px-0 block bg-white border md:bg-transparent md:border-0">Conheça a UNIASSELVI</a></li>
                                     <li><a href="" class="text-md font-base py-2 px-3 md:px-0 block bg-white border md:bg-transparent md:border-0">Unidades e polos</a></li>
                                     <li><a href="" class="text-md font-base py-2 px-3 md:px-0 block bg-white border md:bg-transparent md:border-0">Canal de Ética</a></li>
@@ -220,13 +220,13 @@ function Footer({
                     </div>
                       
                     <div class="flex-[1_1_auto] w-full md:w-auto md:max-w-[260px]">
-                        <div class="collapse border-t border-[#000000a1] md:border-0 rounded-none">
+                        <div class="collapse border-t border-[#000000a1] md:border-0 rounded-none py-3">
                             <input type="checkbox" class="md:hidden peer min-h-fit" />
-                            <div class="collapse-title px-3 min-h-fit py-3 md:py-0 text-2xl font-bold p-0">
+                            <div class="collapse-title px-3 min-h-fit md:py-0 text-xl md:text-2xl font-bold p-0">
                                 Graduação
                             </div>
                             <div class="collapse-content">
-                                <ul class="px-3 md:px-0">
+                                <ul class="px-3 md:px-0 pt-3 md:pt-0">
                                     <li><a href="" class="text-md font-base py-2 px-3 md:px-0 block bg-white border md:bg-transparent md:border-0">Cursos</a></li>
                                     <li><a href="" class="text-md font-base py-2 px-3 md:px-0 block bg-white border md:bg-transparent md:border-0">Inscreva-se</a></li>
                                     <li><a href="" class="text-md font-base py-2 px-3 md:px-0 block bg-white border md:bg-transparent md:border-0">Serviços</a></li>
@@ -242,13 +242,13 @@ function Footer({
                         </div>
                     </div>
                     <div class="flex-[1_1_auto] w-full md:w-auto md:max-w-[260px]">
-                        <div class="collapse border-t border-[#000000a1] md:border-0 rounded-none">
+                        <div class="collapse border-t border-[#000000a1] md:border-0 rounded-none py-3">
                             <input type="checkbox" class="md:hidden peer min-h-fit" />
-                            <div class="collapse-title px-3 min-h-fit py-3 md:py-0 text-2xl font-bold p-0">
+                            <div class="collapse-title px-3 min-h-fit md:py-0 text-xl md:text-2xl font-bold p-0">
                                 Pós-graduação
                             </div>
                             <div class="collapse-content">
-                                <ul class="px-3 md:px-0">
+                                <ul class="px-3 md:px-0 pt-3 md:pt-0">
                                     <li><a href="" class="text-md font-base py-2 px-3 md:px-0 block bg-white border md:bg-transparent md:border-0">Cursos</a></li>
                                     <li><a href="" class="text-md font-base py-2 px-3 md:px-0 block bg-white border md:bg-transparent md:border-0">Inscreva-se</a></li>
                                     <li><a href="" class="text-md font-base py-2 px-3 md:px-0 block bg-white border md:bg-transparent md:border-0">Serviços</a></li>
@@ -262,39 +262,39 @@ function Footer({
                                 </ul>
                             </div>
                         </div>
-                        <div class="collapse border-t border-[#000000a1] md:border-0 rounded-none md:mt-3">
+                        <div class="collapse border-t border-[#000000a1] md:border-0 rounded-none py-3 md:mt-3">
                             <input type="checkbox" class="md:hidden peer min-h-fit" />
-                            <div class="collapse-title px-3 min-h-fit py-3 md:py-0 text-2xl font-bold p-0">
+                            <div class="collapse-title px-3 min-h-fit md:py-0 text-xl md:text-2xl font-bold p-0">
                                 Egressos
                             </div>
                             <div class="collapse-content">
-                                <ul class="px-3 md:px-0">
+                                <ul class="px-3 md:px-0 pt-3 md:pt-0">
                                     <li><a href="" class="text-md font-base py-2 px-3 md:px-0 block bg-white border md:bg-transparent md:border-0">Portal do egresso</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="flex-[1_1_auto] w-full md:w-auto md:max-w-[260px]">
-                        <div class="collapse border-t border-[#000000a1] md:border-0 rounded-none">
+                        <div class="collapse border-t border-[#000000a1] md:border-0 rounded-none py-3">
                             <input type="checkbox" class="md:hidden peer min-h-fit" />
-                            <div class="collapse-title px-3 min-h-fit py-3 md:py-0 text-2xl font-bold p-0">
+                            <div class="collapse-title px-3 min-h-fit md:py-0 text-xl md:text-2xl font-bold p-0">
                                 Técnicos e Profissionalizantes
                             </div>
                             <div class="collapse-content">
-                                <ul class="px-3 md:px-0">
+                                <ul class="px-3 md:px-0 pt-3 md:pt-0">
                                     <li><a href="" class="text-md font-base py-2 px-3 md:px-0 block bg-white border md:bg-transparent md:border-0">Cursos</a></li>
                                     <li><a href="" class="text-md font-base py-2 px-3 md:px-0 block bg-white border md:bg-transparent md:border-0">Inscreva-se</a></li>
                                     <li><a href="" class="text-md font-base py-2 px-3 md:px-0 block bg-white border md:bg-transparent md:border-0">Portal do aluno</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="collapse border-t border-[#000000a1] md:border-0 rounded-none">
+                        <div class="collapse border-t border-[#000000a1] md:border-0 rounded-none py-3">
                             <input type="checkbox" class="md:hidden peer min-h-fit" />
-                            <div class="collapse-title px-3 min-h-fit py-3 md:py-0 text-2xl font-bold p-0">
+                            <div class="collapse-title px-3 min-h-fit md:py-0 text-xl md:text-2xl font-bold p-0">
                                 Cursos Livres
                             </div>
                             <div class="collapse-content">
-                                <ul class="px-3 md:px-0">
+                                <ul class="px-3 md:px-0 pt-3 md:pt-0">
                                     <li><a href="" class="text-md font-base py-2 px-3 md:px-0 block bg-white border md:bg-transparent md:border-0">Cursos</a></li>
                                     <li><a href="" class="text-md font-base py-2 px-3 md:px-0 block bg-white border md:bg-transparent md:border-0">Inscreva-se</a></li>
                                     <li><a href="" class="text-md font-base py-2 px-3 md:px-0 block bg-white border md:bg-transparent md:border-0">Portal do aluno</a></li>
@@ -304,9 +304,9 @@ function Footer({
                         <img src="/e-mec.png" class="hidden md:block w-full max-w-[200px] mt-3" alt="" />
                     </div>
                     <div class="flex-[1_1_auto] w-full md:w-auto md:max-w-[260px]">
-                        <div class="collapse border-t border-[#000000a1] md:border-0 rounded-none">
+                        <div class="collapse border-t border-[#000000a1] md:border-0 rounded-none py-3">
                             <input type="checkbox" class="md:hidden peer min-h-fit" />
-                            <div class="collapse-title px-3 min-h-fit py-3 md:py-0 text-2xl font-bold p-0">
+                            <div class="collapse-title px-3 min-h-fit md:py-0 text-xl md:text-2xl font-bold p-0">
                                 Contato
                             </div>
                             <div class="collapse-content">
@@ -320,7 +320,7 @@ function Footer({
                         </div>
                         <div class="collapse border-y border-[#000000a1] md:border-0 rounded-none">
                             <input type="checkbox" class="md:hidden peer min-h-fit" />
-                            <div class="collapse-title px-3 min-h-fit py-3 md:py-0 text-2xl font-bold p-0">
+                            <div class="collapse-title px-3 min-h-fit py-3 md:py-0 text-xl md:text-2xl font-bold p-0">
                                 Telefones
                             </div>
                             <div class="collapse-content">

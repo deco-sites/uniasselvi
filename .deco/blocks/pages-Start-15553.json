@@ -20,7 +20,19 @@
       "text_7": "<p>Conclusão de uma nova disciplina a&nbsp;<strong>cada 4 semanas.</strong></p>",
       "text_8": "<p>UNIASSELVI Leo App com&nbsp;<strong>navegação gratuita</strong>. Confira notas, acesse as trilhas de aprendizagem e estude com materiais didáticos digitais.</p>",
       "text_9": "<p><strong>Plataformas online</strong>&nbsp;para auxiliar o seu aprendizado e atendimento ao aluno.</p>",
-      "text_10": "<p>Presente em&nbsp;<strong>todas as regiões</strong>&nbsp;do Brasil. Escolha o polo mais próximo de você.</p>"
+      "text_10": "<p>Presente em&nbsp;<strong>todas as regiões</strong>&nbsp;do Brasil. Escolha o polo mais próximo de você.</p>",
+      "icon_1": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/8a5d89f1-8a56-48aa-8940-bd06f11fba46",
+      "height_icon_1": 40,
+      "width_icon_1": 40,
+      "height_icon_2": 40,
+      "width_icon_2": 50,
+      "height_icon_3": 40,
+      "width_icon_3": 50,
+      "height_icon_4": 40,
+      "width_icon_4": 40,
+      "icon_2": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/3d5b7295-c40b-4d23-a81c-75e95296c2e2",
+      "icon_3": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/d1e814c7-6eeb-43cd-a79d-8a1cf5bb34ff",
+      "icon_4": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/c2b47af3-d8ae-4c14-93ba-098d986ada28"
     },
     {
       "__resolveType": "site/sections/SobreEad.tsx",

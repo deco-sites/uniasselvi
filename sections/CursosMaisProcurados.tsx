@@ -59,7 +59,7 @@ interface Props {
     link = ""
   }: Props) {
     return (
-        <section class="bg-white pt-[64px]">
+        <section class="bg-white">
             <div class="container px-[1rem] py-8">
                 <h2 class="text-xl md:text-3xl font-bold text-black mb-4">{titleSection}</h2>
                 <p class="text-md font-base text-black mb-8">{subTitleSection}</p>
@@ -76,8 +76,9 @@ interface Props {
                 </div>
 
                 {/* <!-- Swiper --> */}
-                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
-                    <div class="relative rounded-md h-[350px] flex flex-wrap content-between flex-row overflow-hidden bg-no-repeat bg-center hover:scale-y-[106%] group hover:scale-x-[105%] hover:border border-black duration-300">
+                {/* <div class="grid lg:grid-cols-4 gap-5"> */}
+                <div class="flex md:grid md:grid-cols-2 lg:grid-cols-4 overflow-x-auto md:overflow-x-visible gap-5 py-4">
+                    <div class="min-w-[320px] md:min-w-0 relative rounded-md h-[350px] flex flex-wrap content-between flex-row overflow-hidden bg-no-repeat bg-center hover:scale-y-[106%] group hover:scale-x-[105%] hover:border border-black duration-300">
                         <div>
                             {/* <img src="/pedagogia.webp" class="block w-full rounded-md object-cover absolute h-full brightness-[0.68]" alt="" /> */}
                             {image_1 && (
@@ -98,7 +99,7 @@ interface Props {
                             </div>
                         </div>
                     </div>
-                    <div class="relative rounded-md h-[350px] flex flex-wrap content-between flex-row overflow-hidden bg-no-repeat bg-center hover:scale-y-[106%] group hover:scale-x-[105%] hover:border border-black duration-300">
+                    <div class="min-w-[320px] md:min-w-0 relative rounded-md h-[350px] flex flex-wrap content-between flex-row overflow-hidden bg-no-repeat bg-center hover:scale-y-[106%] group hover:scale-x-[105%] hover:border border-black duration-300">
                         <div>
                             {/* <img src="/pedagogia.webp" class="block w-full rounded-md object-cover absolute h-full brightness-[0.68]" alt="" /> */}
                             {image_2 && (
@@ -119,7 +120,7 @@ interface Props {
                             </div>
                         </div>
                     </div>
-                    <div class="relative rounded-md h-[350px] flex flex-wrap content-between flex-row overflow-hidden bg-no-repeat bg-center hover:scale-y-[106%] group hover:scale-x-[105%] hover:border border-black duration-300">
+                    <div class="min-w-[320px] md:min-w-0 relative rounded-md h-[350px] flex flex-wrap content-between flex-row overflow-hidden bg-no-repeat bg-center hover:scale-y-[106%] group hover:scale-x-[105%] hover:border border-black duration-300">
                         <div>
                             {/* <img src="/pedagogia.webp" class="block w-full rounded-md object-cover absolute h-full brightness-[0.68]" alt="" /> */}
                             {image_3 && (
@@ -140,7 +141,7 @@ interface Props {
                             </div>
                         </div>
                     </div>
-                    <div class="relative rounded-md h-[350px] flex flex-wrap content-between flex-row overflow-hidden bg-no-repeat bg-center hover:scale-y-[106%] group hover:scale-x-[105%] hover:border border-black duration-300">
+                    <div class="min-w-[320px] md:min-w-0 relative rounded-md h-[350px] flex flex-wrap content-between flex-row overflow-hidden bg-no-repeat bg-center hover:scale-y-[106%] group hover:scale-x-[105%] hover:border border-black duration-300">
                         <div>
                             {/* <img src="/pedagogia.webp" class="block w-full rounded-md object-cover absolute h-full brightness-[0.68]" alt="" /> */}
                             {image_4 && (
@@ -162,6 +163,10 @@ interface Props {
                         </div>
                     </div>
                 </div>
+                <a href={link} class="flex md:hidden items-center gap-3">
+                    <p class="text-md md:text-lg text-[#00a59a] font-light whitespace-nowrap">Ver mais cursos</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512"><path fill="#00a59a" d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"/></svg>
+                </a>
             </div>
         </section>
     );
