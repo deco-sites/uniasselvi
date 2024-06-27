@@ -2,16 +2,15 @@ import Form from "../../islands/Form.tsx";
 import { ImageWidget } from "apps/admin/widgets.ts";
 
 export interface Props {
-    active_index: number;
-    image?: ImageWidget;
+  active_index: number;
+  image?: ImageWidget;
 }
 
 export default function TopBar({
-    active_index,
-    image
+  active_index,
+  image,
 }: Props) {
-
-    const css = `
+  const css = `
         .bar{
             background-color:#ededed;
             padding: 16px 14px 12px 64px;
@@ -107,16 +106,13 @@ export default function TopBar({
             
         }
     `;
-    return (
-        
-        <div class="container mt-10 mb-10">
-            <style>
-                    {css}
-            </style>
+  return (
+    <div class="container mt-10 mb-10">
+      <style>
+        {css}
+      </style>
 
-            <Form active_index={active_index} image={image} />
-            
-        </div>
-    );
+      <Form active_index={active_index} image={image} />
+    </div>
+  );
 }
-
