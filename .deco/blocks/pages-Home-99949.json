@@ -16,28 +16,38 @@
             "arrows": true,
             "images": [
               {
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/8746b875-8ab0-4170-8c62-1690cf480ac6",
+                "desktop": {
+                  "__resolveType": "website/flags/multivariate/image.ts",
+                  "variants": [
+                    {
+                      "value": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/8746b875-8ab0-4170-8c62-1690cf480ac6",
+                      "rule": {
+                        "__resolveType": "website/matchers/always.ts"
+                      }
+                    }
+                  ]
+                },
                 "alt": "Banner 1",
                 "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/9d16c649-791d-432e-b448-42583c9b7b1a"
               },
               {
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/68e15c79-e4e4-4349-a2b0-974b80f617e2",
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/63bbf3e4-7fe9-47f9-8dd5-d93f49bc1688",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/ba392709-58c6-4347-8704-4cb674a03030",
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/1136f9f0-0427-4744-a854-97658cf925d5",
                 "alt": "Banner 2"
               },
               {
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/238a8b00-01c1-4741-814a-ddbf5c7c1adf",
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/3b4a83a9-ae57-4ce7-9b9a-b35ef2d1fce7",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/7728e19e-ce63-4535-b7a6-5b04dad5ef50",
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/8dcaffba-e7e6-4407-8dfd-c049381470c5",
                 "alt": "Banner 3"
               },
               {
-                "alt": "Banner 4",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/e4dacbbd-7d2a-48de-af70-28da01d3d391",
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/cab23d03-db8e-4646-86f0-dbcb96a20592"
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/0291bca7-9512-47b2-9f45-3e5718511566",
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/9afa1639-55f3-472c-abf7-862b4b008402",
+                "alt": "Banner 4"
               },
               {
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/b335c695-74a9-4c98-aec9-c37ed35fec93",
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/907aa336-bcf8-4df4-81cf-b2439549d2e4",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/a837a196-91ba-4106-a554-3bda1ea26cdf",
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/0958ae5b-28f5-4c00-b021-103054eb6d25",
                 "alt": "Banner 5"
               }
             ],
@@ -72,10 +82,10 @@
     },
     {
       "__resolveType": "site/sections/UniversoDeOpcoes.tsx",
-      "gridColsDesk": 2,
-      "gridColsMobile": 1,
       "titleSection": "Um universo de opções para sua evolução",
-      "subTitleSection": "Vale o que custa e não pesa no bolso!"
+      "subTitleSection": "Vale o que custa e não pesa no bolso!",
+      "gridColsDesk": 2,
+      "gridColsMobile": 1
     },
     {
       "__resolveType": "site/sections/LeuApp.tsx",
