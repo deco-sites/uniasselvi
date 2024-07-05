@@ -18,9 +18,9 @@ const CpfInput = ({ initialValue }: CpfInputProps) => {
     const numericValue = value.replace(/\D/g, "").slice(0, 11);
     const cpfMasked = numericValue.replace(
       /(\d{3})(\d{3})(\d{3})(\d{2})/,
-      (_, p1, p2, p3, p4) => `${p1}.${p2}.${p3}-${p4}`
+      (_, p1, p2, p3, p4) => `${p1}.${p2}.${p3}-${p4}`,
     );
-    return cpfMasked 
+    return cpfMasked;
   };
 
   return (

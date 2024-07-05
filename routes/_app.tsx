@@ -27,8 +27,7 @@ export default defineApp(async (_req, ctx) => {
 
         <style
           dangerouslySetInnerHTML={{
-            __html: 
-                `@font-face {
+            __html: `@font-face {
                   font-family: 'Neo Sans Std';
                   font-style: normal;
                   font-weight: 300;
@@ -52,10 +51,9 @@ export default defineApp(async (_req, ctx) => {
                 :root {
                   --font-family: 'Neo Sans Std';
                 }  
-                `
+                `,
           }}
         />
-
       </Head>
 
       {/* Rest of Preact tree */}

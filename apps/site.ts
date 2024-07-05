@@ -19,10 +19,9 @@ export const api = createHttpClient<API>({
 export default function Site(
   state: Props,
 ) {
-
   return {
     state: {
-      ...state, 
+      ...state,
       api,
     },
     manifest,
