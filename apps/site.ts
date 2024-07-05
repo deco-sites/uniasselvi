@@ -7,7 +7,7 @@ import { API } from "site/apps/api.ts";
 type WebsiteApp = ReturnType<typeof website>;
 
 export const api = createHttpClient<API>({
-  base: "https://www.uniasselvi.com.br",
+  base: "https://www.asselvi.net.br",
 });
 
 /**
