@@ -1,0 +1,29 @@
+{
+  "name": "Graduacao dois",
+  "path": "/graduacaodois",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Navbar.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10681/6f6d92e6-5440-430a-bcea-1cdb84c75572"
+    },
+    {
+      "__resolveType": "site/sections/BannerGraduacao.tsx"
+    },
+    {
+      "__resolveType": "site/sections/SelecioneOCurso.tsx",
+      "cursos": {
+        "__resolveType": "Preview site/loaders/cursos.ts"
+      }
+    },
+    {
+      "__resolveType": "site/sections/ListagemDosCursos.tsx"
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
