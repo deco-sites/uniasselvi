@@ -23,7 +23,7 @@ export default async function getTokenAva(
   _ctx: AppContext,
 ) {
   const url = new URL(
-    "https://api-areasegura.uniasselvi.com.br/security/check",
+    "https://api-areasegura.asselvi.net.br/security/check",
   );
 
   const body = { ...transform(props), ...DEFAULT_PROPS };

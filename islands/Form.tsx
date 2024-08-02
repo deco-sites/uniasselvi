@@ -107,7 +107,7 @@ const Form = ({ active_index, image }: FormProps) => {
               data_nasc: data.value.data_nasc,
             });
 
-            const domain = "uniasselvi.com.br";
+            const domain = "asselvi.net.br";
             if (token) {
               document.cookie =
                 `uniToken=${token}; path=/; domain=.${domain}; secure=true; sameSite=None`;
